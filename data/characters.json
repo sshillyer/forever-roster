@@ -1,1 +1,1245 @@
-{ "region": "us", "updated_at": null, "characters": [] }
+{
+  "region": "us",
+  "updated_at": "2026-11-24T20:41:42.578Z",
+  "characters": [
+    {
+      "name": "Rotten Hell",
+      "slug": "rotten-hell",
+      "ok": true,
+      "level": 33,
+      "race": "Undead",
+      "class": "Warlock",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 25,
+      "ilvl_avg": 25,
+      "last_login": 1795466887000,
+      "spec": {
+        "active": "Affliction",
+        "trees": [
+          {
+            "name": "Affliction",
+            "points": 24
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Tailoring",
+          "kind": "primary",
+          "skill": 150,
+          "max": 225,
+          "tier": "Tailoring"
+        },
+        {
+          "name": "Enchanting",
+          "kind": "primary",
+          "skill": 150,
+          "max": 225,
+          "tier": "Enchanting"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 135,
+          "max": 150,
+          "tier": "Cooking"
+        },
+        {
+          "name": "Fishing",
+          "kind": "secondary",
+          "skill": 154,
+          "max": 225,
+          "tier": "Fishing"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 102,
+          "max": 150,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "id": 3732,
+          "name": "Hooded Cowl",
+          "quality": "COMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Neck",
+          "id": 281265,
+          "name": "Roadwatcher's Confidence",
+          "quality": "UNCOMMON",
+          "ilvl": 20
+        },
+        {
+          "slot": "Shoulders",
+          "id": 4197,
+          "name": "Berylline Pads",
+          "quality": "RARE",
+          "ilvl": 36
+        },
+        {
+          "slot": "Chest",
+          "id": 271206,
+          "name": "Leftover Abomination Skin",
+          "quality": "RARE",
+          "ilvl": 20
+        },
+        {
+          "slot": "Waist",
+          "id": 286980,
+          "name": "Rotmender's Sash",
+          "quality": "RARE",
+          "ilvl": 22
+        },
+        {
+          "slot": "Legs",
+          "id": 270011,
+          "name": "Embroidered Leggings",
+          "quality": "UNCOMMON",
+          "ilvl": 21
+        },
+        {
+          "slot": "Feet",
+          "id": 6482,
+          "name": "Firewalker Boots",
+          "quality": "UNCOMMON",
+          "ilvl": 24
+        },
+        {
+          "slot": "Wrist",
+          "id": 271740,
+          "name": "Knife-Polishing Rag",
+          "quality": "UNCOMMON",
+          "ilvl": 33
+        },
+        {
+          "slot": "Hands",
+          "id": 270030,
+          "name": "Tattered Mittens",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        },
+        {
+          "slot": "Ring 1",
+          "id": 6750,
+          "name": "Snake Hoop",
+          "quality": "UNCOMMON",
+          "ilvl": 32
+        },
+        {
+          "slot": "Ring 2",
+          "id": 273030,
+          "name": "Ring of Power Regulation",
+          "quality": "RARE",
+          "ilvl": 33
+        },
+        {
+          "slot": "Trinket 1",
+          "id": 276895,
+          "name": "Transformative Cocoon",
+          "quality": "UNCOMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Back",
+          "id": 271719,
+          "name": "Furs of the Earthen Ring",
+          "quality": "RARE",
+          "ilvl": 33
+        },
+        {
+          "slot": "Main Hand",
+          "id": 6505,
+          "name": "Crescent Staff",
+          "quality": "RARE",
+          "ilvl": 24
+        },
+        {
+          "slot": "Ranged",
+          "id": 5250,
+          "name": "Charred Wand",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/95/635487-avatar.jpg"
+    },
+    {
+      "name": "Bone Mender",
+      "slug": "bone-mender",
+      "ok": true,
+      "level": 33,
+      "race": "Undead",
+      "class": "Priest",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 26,
+      "ilvl_avg": 26,
+      "last_login": 1795466889000,
+      "spec": {
+        "active": "Shadow Magic",
+        "trees": [
+          {
+            "name": "Discipline",
+            "points": 2
+          },
+          {
+            "name": "Shadow Magic",
+            "points": 22
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Alchemy",
+          "kind": "primary",
+          "skill": 225,
+          "max": 225,
+          "tier": "Alchemy"
+        },
+        {
+          "name": "Herbalism",
+          "kind": "primary",
+          "skill": 167,
+          "max": 225,
+          "tier": "Herbalism"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "Fishing",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Fishing"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "id": 3732,
+          "name": "Hooded Cowl",
+          "quality": "COMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Neck",
+          "id": 281265,
+          "name": "Roadwatcher's Confidence",
+          "quality": "UNCOMMON",
+          "ilvl": 20
+        },
+        {
+          "slot": "Shoulders",
+          "id": 4197,
+          "name": "Berylline Pads",
+          "quality": "RARE",
+          "ilvl": 36
+        },
+        {
+          "slot": "Shirt",
+          "id": 53,
+          "name": "Neophyte's Shirt",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 6682,
+          "name": "Death Speaker Robes",
+          "quality": "RARE",
+          "ilvl": 31
+        },
+        {
+          "slot": "Waist",
+          "id": 271210,
+          "name": "Tuskwrap Belt",
+          "quality": "RARE",
+          "ilvl": 21
+        },
+        {
+          "slot": "Legs",
+          "id": 270011,
+          "name": "Embroidered Leggings",
+          "quality": "UNCOMMON",
+          "ilvl": 21
+        },
+        {
+          "slot": "Feet",
+          "id": 6482,
+          "name": "Firewalker Boots",
+          "quality": "UNCOMMON",
+          "ilvl": 24
+        },
+        {
+          "slot": "Wrist",
+          "id": 271740,
+          "name": "Knife-Polishing Rag",
+          "quality": "UNCOMMON",
+          "ilvl": 33
+        },
+        {
+          "slot": "Hands",
+          "id": 270030,
+          "name": "Tattered Mittens",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        },
+        {
+          "slot": "Ring 1",
+          "id": 3739,
+          "name": "Skull Ring",
+          "quality": "UNCOMMON",
+          "ilvl": 25
+        },
+        {
+          "slot": "Ring 2",
+          "id": 6750,
+          "name": "Snake Hoop",
+          "quality": "UNCOMMON",
+          "ilvl": 32
+        },
+        {
+          "slot": "Trinket 1",
+          "id": 276895,
+          "name": "Transformative Cocoon",
+          "quality": "UNCOMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Back",
+          "id": 15468,
+          "name": "Windsong Drape",
+          "quality": "UNCOMMON",
+          "ilvl": 29
+        },
+        {
+          "slot": "Main Hand",
+          "id": 6689,
+          "name": "Wind Spirit Staff",
+          "quality": "RARE",
+          "ilvl": 34
+        },
+        {
+          "slot": "Ranged",
+          "id": 5250,
+          "name": "Charred Wand",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/53/1517877-avatar.jpg"
+    },
+    {
+      "name": "Kaelor Highwind",
+      "slug": "kaelor-highwind",
+      "ok": true,
+      "level": 36,
+      "race": "Windshaper Skyborne",
+      "class": "Hunter",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 30,
+      "ilvl_avg": 30,
+      "last_login": 1795509669000,
+      "spec": {
+        "active": "Beast Mastery",
+        "trees": [
+          {
+            "name": "Beast Mastery",
+            "points": 27
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Leatherworking",
+          "kind": "primary",
+          "skill": 195,
+          "max": 225,
+          "tier": "Leatherworking"
+        },
+        {
+          "name": "Skinning",
+          "kind": "primary",
+          "skill": 251,
+          "max": 300,
+          "tier": "Skinning"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 141,
+          "max": 150,
+          "tier": "Cooking"
+        },
+        {
+          "name": "Fishing",
+          "kind": "secondary",
+          "skill": 142,
+          "max": 225,
+          "tier": "Fishing"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 89,
+          "max": 150,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "id": 3732,
+          "name": "Hooded Cowl",
+          "quality": "COMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Neck",
+          "id": 5003,
+          "name": "Crystal Starfire Medallion",
+          "quality": "UNCOMMON",
+          "ilvl": 31
+        },
+        {
+          "slot": "Shoulders",
+          "id": 15127,
+          "name": "Robust Shoulders of the Bandit",
+          "quality": "UNCOMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Shirt",
+          "id": 271668,
+          "name": "Thendal Survivalist's Shirt",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 273026,
+          "name": "Garb of Florid Feathers",
+          "quality": "RARE",
+          "ilvl": 31
+        },
+        {
+          "slot": "Waist",
+          "id": 252521,
+          "name": "Stalker's Leather Belt",
+          "quality": "RARE",
+          "ilvl": 35
+        },
+        {
+          "slot": "Legs",
+          "id": 9624,
+          "name": "Triprunner Dungarees",
+          "quality": "RARE",
+          "ilvl": 37
+        },
+        {
+          "slot": "Feet",
+          "id": 3741,
+          "name": "Stomping Boots",
+          "quality": "UNCOMMON",
+          "ilvl": 24
+        },
+        {
+          "slot": "Wrist",
+          "id": 271732,
+          "name": "Dirt-Heavy Bracers",
+          "quality": "UNCOMMON",
+          "ilvl": 33
+        },
+        {
+          "slot": "Hands",
+          "id": 10413,
+          "name": "Gloves of the Fang",
+          "quality": "RARE",
+          "ilvl": 19
+        },
+        {
+          "slot": "Ring 1",
+          "id": 12008,
+          "name": "Savannah Ring of the Bandit",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        },
+        {
+          "slot": "Ring 2",
+          "id": 6748,
+          "name": "Monkey Ring",
+          "quality": "UNCOMMON",
+          "ilvl": 32
+        },
+        {
+          "slot": "Trinket 1",
+          "id": 276895,
+          "name": "Transformative Cocoon",
+          "quality": "UNCOMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Trinket 2",
+          "id": 280766,
+          "name": "Satchel of Potions",
+          "quality": "UNCOMMON",
+          "ilvl": 33
+        },
+        {
+          "slot": "Back",
+          "id": 6449,
+          "name": "Glowing Lizardscale Cloak",
+          "quality": "RARE",
+          "ilvl": 23
+        },
+        {
+          "slot": "Main Hand",
+          "id": 6504,
+          "name": "Wingblade",
+          "quality": "RARE",
+          "ilvl": 24
+        },
+        {
+          "slot": "Off Hand",
+          "id": 16886,
+          "name": "Outlaw Sabre",
+          "quality": "RARE",
+          "ilvl": 32
+        },
+        {
+          "slot": "Ranged",
+          "id": 274084,
+          "name": "Quilboar Blaster",
+          "quality": "RARE",
+          "ilvl": 36
+        },
+        {
+          "slot": "Ammo",
+          "id": 3033,
+          "name": "Solid Shot",
+          "quality": "COMMON",
+          "ilvl": 30
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/75/5350475-avatar.jpg"
+    },
+    {
+      "name": "Vaelor Highwind",
+      "slug": "vaelor-highwind",
+      "ok": true,
+      "level": 36,
+      "race": "Windshaper Skyborne",
+      "class": "Druid",
+      "faction": "Horde",
+      "gender": "Female",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 29,
+      "ilvl_avg": 32,
+      "last_login": 1795509575000,
+      "spec": {
+        "active": "Feral Combat",
+        "trees": [
+          {
+            "name": "Feral Combat",
+            "points": 27
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Mining",
+          "kind": "primary",
+          "skill": 121,
+          "max": 150,
+          "tier": "Mining"
+        },
+        {
+          "name": "Herbalism",
+          "kind": "primary",
+          "skill": 128,
+          "max": 225,
+          "tier": "Herbalism"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 65,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Head",
+          "id": 3732,
+          "name": "Hooded Cowl",
+          "quality": "COMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Neck",
+          "id": 273088,
+          "name": "Snake Eye Kaleidoscope",
+          "quality": "RARE",
+          "ilvl": 22
+        },
+        {
+          "slot": "Shoulders",
+          "id": 270023,
+          "name": "Tanned Shoulderpads",
+          "quality": "UNCOMMON",
+          "ilvl": 27
+        },
+        {
+          "slot": "Shirt",
+          "id": 271668,
+          "name": "Thendal Survivalist's Shirt",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 15471,
+          "name": "Brawnhide Armor",
+          "quality": "UNCOMMON",
+          "ilvl": 29
+        },
+        {
+          "slot": "Waist",
+          "id": 7406,
+          "name": "Infiltrator Cord of the Bandit",
+          "quality": "UNCOMMON",
+          "ilvl": 32
+        },
+        {
+          "slot": "Legs",
+          "id": 9624,
+          "name": "Triprunner Dungarees",
+          "quality": "RARE",
+          "ilvl": 37
+        },
+        {
+          "slot": "Feet",
+          "id": 6335,
+          "name": "Grizzled Boots",
+          "quality": "UNCOMMON",
+          "ilvl": 28
+        },
+        {
+          "slot": "Wrist",
+          "id": 270032,
+          "name": "Cultist's Armguards",
+          "quality": "RARE",
+          "ilvl": 29
+        },
+        {
+          "slot": "Hands",
+          "id": 9806,
+          "name": "Superior Gloves of the Knight",
+          "quality": "UNCOMMON",
+          "ilvl": 27
+        },
+        {
+          "slot": "Ring 1",
+          "id": 6414,
+          "name": "Seal of Sylvanas",
+          "quality": "RARE",
+          "ilvl": 29
+        },
+        {
+          "slot": "Ring 2",
+          "id": 273839,
+          "name": "Spiked Shell Band",
+          "quality": "RARE",
+          "ilvl": 27
+        },
+        {
+          "slot": "Trinket 1",
+          "id": 276895,
+          "name": "Transformative Cocoon",
+          "quality": "UNCOMMON",
+          "ilvl": 30
+        },
+        {
+          "slot": "Trinket 2",
+          "id": 280766,
+          "name": "Satchel of Potions",
+          "quality": "UNCOMMON",
+          "ilvl": 33
+        },
+        {
+          "slot": "Back",
+          "id": 6629,
+          "name": "Sporid Cape",
+          "quality": "RARE",
+          "ilvl": 22
+        },
+        {
+          "slot": "Main Hand",
+          "id": 271766,
+          "name": "Heavehammer",
+          "quality": "RARE",
+          "ilvl": 33
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/152/5157784-avatar.jpg"
+    },
+    {
+      "name": "Makar Skullcleaver",
+      "slug": "makar-skullcleaver",
+      "ok": true,
+      "level": 10,
+      "race": "Orc",
+      "class": "Warrior",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": null,
+      "ilvl": 4,
+      "ilvl_avg": 4,
+      "last_login": 1795466632000,
+      "spec": {
+        "active": "Protection",
+        "trees": [
+          {
+            "name": "Protection",
+            "points": 2
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Mining",
+          "kind": "primary",
+          "skill": 60,
+          "max": 75,
+          "tier": "Mining"
+        },
+        {
+          "name": "Blacksmithing",
+          "kind": "primary",
+          "skill": 41,
+          "max": 75,
+          "tier": "Blacksmithing"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 29,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 6125,
+          "name": "Brawler's Harness",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 10421,
+          "name": "Rough Copper Vest",
+          "quality": "UNCOMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Waist",
+          "id": 6509,
+          "name": "Infantry Belt",
+          "quality": "COMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Legs",
+          "id": 281267,
+          "name": "Raptorscale Pants",
+          "quality": "UNCOMMON",
+          "ilvl": 8
+        },
+        {
+          "slot": "Feet",
+          "id": 4946,
+          "name": "Lightweight Boots",
+          "quality": "COMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Wrist",
+          "id": 2643,
+          "name": "Loose Chain Bracers",
+          "quality": "POOR",
+          "ilvl": 10
+        },
+        {
+          "slot": "Hands",
+          "id": 2653,
+          "name": "Flimsy Chain Gloves",
+          "quality": "POOR",
+          "ilvl": 4
+        },
+        {
+          "slot": "Ring 1",
+          "id": 281268,
+          "name": "Depleted Ritual Band",
+          "quality": "COMMON",
+          "ilvl": 9
+        },
+        {
+          "slot": "Back",
+          "id": 4933,
+          "name": "Seasoned Fighter's Cloak",
+          "quality": "COMMON",
+          "ilvl": 9
+        },
+        {
+          "slot": "Main Hand",
+          "id": 4562,
+          "name": "Severing Axe of Stamina",
+          "quality": "UNCOMMON",
+          "ilvl": 10
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/144/5400208-avatar.jpg"
+    },
+    {
+      "name": "Lokar Stormhowl",
+      "slug": "lokar-stormhowl",
+      "ok": true,
+      "level": 10,
+      "race": "Orc",
+      "class": "Shaman",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": null,
+      "ilvl": 3,
+      "ilvl_avg": 3,
+      "last_login": 1795466630000,
+      "spec": {
+        "active": "Enhancement",
+        "trees": [
+          {
+            "name": "Enhancement",
+            "points": 2
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Skinning",
+          "kind": "primary",
+          "skill": 75,
+          "max": 75,
+          "tier": "Skinning"
+        },
+        {
+          "name": "Herbalism",
+          "kind": "primary",
+          "skill": 16,
+          "max": 75,
+          "tier": "Herbalism"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 154,
+          "name": "Primitive Mantle",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 4916,
+          "name": "Soft Wool Vest",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Waist",
+          "id": 3370,
+          "name": "Patchwork Belt",
+          "quality": "POOR",
+          "ilvl": 8
+        },
+        {
+          "slot": "Legs",
+          "id": 4921,
+          "name": "Dust-covered Leggings",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Wrist",
+          "id": 4928,
+          "name": "Sandrunner Wristguards",
+          "quality": "COMMON",
+          "ilvl": 8
+        },
+        {
+          "slot": "Hands",
+          "id": 4940,
+          "name": "Veiled Grips",
+          "quality": "COMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Ring 2",
+          "id": 281268,
+          "name": "Depleted Ritual Band",
+          "quality": "COMMON",
+          "ilvl": 9
+        },
+        {
+          "slot": "Back",
+          "id": 15483,
+          "name": "War Torn Cape",
+          "quality": "COMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Main Hand",
+          "id": 286728,
+          "name": "Kolkar Hammer",
+          "quality": "COMMON",
+          "ilvl": 8
+        },
+        {
+          "slot": "Off Hand",
+          "id": 15486,
+          "name": "War Torn Shield of Power",
+          "quality": "UNCOMMON",
+          "ilvl": 12
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/27/5387035-avatar.jpg"
+    },
+    {
+      "name": "Dread Reckoning",
+      "slug": "dread-reckoning",
+      "ok": true,
+      "level": 13,
+      "race": "Undead",
+      "class": "Paladin",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 5,
+      "ilvl_avg": 6,
+      "last_login": 1795517270000,
+      "spec": {
+        "active": "Retribution",
+        "trees": [
+          {
+            "name": "Retribution",
+            "points": 5
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Mining",
+          "kind": "primary",
+          "skill": 108,
+          "max": 150,
+          "tier": "Mining"
+        },
+        {
+          "name": "Blacksmithing",
+          "kind": "primary",
+          "skill": 100,
+          "max": 150,
+          "tier": "Blacksmithing"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 14,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 50,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 6125,
+          "name": "Brawler's Harness",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 10421,
+          "name": "Rough Copper Vest",
+          "quality": "UNCOMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Waist",
+          "id": 6548,
+          "name": "Soldier's Girdle of the Owl",
+          "quality": "UNCOMMON",
+          "ilvl": 16
+        },
+        {
+          "slot": "Legs",
+          "id": 3473,
+          "name": "Runed Copper Pants",
+          "quality": "UNCOMMON",
+          "ilvl": 13
+        },
+        {
+          "slot": "Feet",
+          "id": 3469,
+          "name": "Copper Chain Boots",
+          "quality": "UNCOMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Wrist",
+          "id": 2853,
+          "name": "Copper Bracers",
+          "quality": "COMMON",
+          "ilvl": 7
+        },
+        {
+          "slot": "Hands",
+          "id": 3472,
+          "name": "Runed Copper Gauntlets",
+          "quality": "UNCOMMON",
+          "ilvl": 12
+        },
+        {
+          "slot": "Back",
+          "id": 6555,
+          "name": "Bard's Cloak",
+          "quality": "COMMON",
+          "ilvl": 14
+        },
+        {
+          "slot": "Main Hand",
+          "id": 4567,
+          "name": "Merc Sword of Power",
+          "quality": "UNCOMMON",
+          "ilvl": 16
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/201/1518025-avatar.jpg"
+    },
+    {
+      "name": "Burnin Hell",
+      "slug": "burnin-hell",
+      "ok": true,
+      "level": 13,
+      "race": "Undead",
+      "class": "Mage",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": "Eternal Demise",
+      "ilvl": 3,
+      "ilvl_avg": 4,
+      "last_login": 1795466817000,
+      "spec": {
+        "active": "Arcane",
+        "trees": [
+          {
+            "name": "Arcane",
+            "points": 5
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Skinning",
+          "kind": "primary",
+          "skill": 96,
+          "max": 150,
+          "tier": "Skinning"
+        },
+        {
+          "name": "Herbalism",
+          "kind": "primary",
+          "skill": 30,
+          "max": 75,
+          "tier": "Herbalism"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 20,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 6096,
+          "name": "Apprentice's Shirt",
+          "quality": "COMMON",
+          "ilvl": 1
+        },
+        {
+          "slot": "Chest",
+          "id": 3270,
+          "name": "Flax Vest",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Waist",
+          "id": 11848,
+          "name": "Flax Belt",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Legs",
+          "id": 3834,
+          "name": "Sturdy Cloth Trousers",
+          "quality": "COMMON",
+          "ilvl": 8
+        },
+        {
+          "slot": "Feet",
+          "id": 3274,
+          "name": "Flax Boots",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Wrist",
+          "id": 6060,
+          "name": "Flax Bracers",
+          "quality": "COMMON",
+          "ilvl": 5
+        },
+        {
+          "slot": "Hands",
+          "id": 12299,
+          "name": "Netted Gloves",
+          "quality": "COMMON",
+          "ilvl": 8
+        },
+        {
+          "slot": "Back",
+          "id": 3322,
+          "name": "Wispy Cloak",
+          "quality": "UNCOMMON",
+          "ilvl": 10
+        },
+        {
+          "slot": "Main Hand",
+          "id": 3277,
+          "name": "Executor Staff",
+          "quality": "COMMON",
+          "ilvl": 5
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/113/1614449-avatar.jpg"
+    },
+    {
+      "name": "Encrypt Dead",
+      "slug": "encrypt-dead",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Rigor Mortgage",
+      "slug": "rigor-mortgage",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Bullion Heir",
+      "slug": "bullion-heir",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Nock Out",
+      "slug": "nock-out",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Over Draught",
+      "slug": "over-draught",
+      "ok": false,
+      "status": 404
+    }
+  ]
+}
