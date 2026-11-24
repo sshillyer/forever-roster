@@ -1,13 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<script>const whTooltips = { colorLinks: false, iconizeLinks: true, renameLinks: false };</script>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><script>const whTooltips = { colorLinks: false, iconizeLinks: true, renameLinks: false };</script>
 <script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
-<style>body{margin:0}</style>
-</head>
-<body>
+</head><body>
 <title>Master Character List</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -180,6 +173,24 @@ table.gear a { text-decoration: none; font-weight: 600; }
 .card.backup .ico { width: 30px; height: 30px; margin: 0; }
 .card.backup b { display: block; font-weight: 600; }
 .card.backup .sub { font-size: .85rem; }
+/* today's checklist */
+.today .vhead { margin-bottom: 0; }
+.tdgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.tdlist { display: grid; gap: 2px; }
+.tdi { display: flex; gap: 10px; align-items: flex-start; padding: 7px 8px; border-radius: 5px; cursor: pointer; line-height: 1.35; }
+.tdi:hover { background: var(--rowalt); }
+.tdi input { width: 18px; height: 18px; margin: 2px 0 0; flex: none; accent-color: var(--gold); cursor: pointer; }
+.tdi.done > span { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--line); }
+.tpt { display: inline-block; font: 600 .7rem var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold); border-radius: 99px; padding: 0 6px; margin-left: 4px; vertical-align: 1px; text-decoration: none; }
+.tdi.done .tpt { opacity: .6; }
+.today > .tdlist { border: 1px solid var(--line); border-radius: 6px; background: var(--panel); padding: 6px; }
+.tdchars { display: grid; gap: 8px; }
+.tdchar { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: baseline; font-weight: 600; }
+.tdchar .bar { grid-column: 1 / -1; height: 5px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.tdchar .bar span, .tdcol .bar span { display: block; height: 100%; background: var(--gold); }
+.tdpair { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.tdhead { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-weight: 600; font-size: 1.1rem; }
+.tdcol .bar { height: 5px; border-radius: 3px; background: var(--line); overflow: hidden; }
 </style>
 
 <div class="wrap">
@@ -187,6 +198,7 @@ table.gear a { text-decoration: none; font-weight: 600; }
     <p class="brand">Master Character List<small>WoW Forever · Shawn's roster</small></p>
     <nav class="views" aria-label="Pages">
       <a href="#master" data-view="master">Master list</a>
+      <a href="#today" data-view="today">Today</a>
       <a href="#characters" data-view="characters">Characters</a>
       <a href="#addons" data-view="addons">Addons</a>
     </nav>
@@ -206,13 +218,13 @@ const ADDON_ICONS = {"Alex Atlas Loot": "data:image/png;base64,iVBORw0KGgoAAAANS
 /* ===================== DATA ===================== */
 // Horde PvE dualbox duos: a = primary account (driver), b = secondary account (follower). null = not decided.
 const DUOS = [
-  { a: { race: 'Undead', cls: 'Warlock', name: 'Rotten Hell', p1: 'Tailoring', p2: 'Enchanting', lvl: 30,
+  { a: { race: 'Undead', cls: 'Warlock', name: 'Rotten Hell', p1: 'Tailoring', p2: 'Enchanting', lvl: 33,
       skills: [
-        { n: 'Enchanting', at: 150, cap: 150, next: 'Capped. Train Expert at Sun Rock Retreat (Stonetalon Mountains) to keep going.' },
-        { n: 'Tailoring', at: 103, cap: 150, next: 'Farm silk to push it to 150. Silk drops from humanoids around level 25 to 35.' },
-        { n: 'Fishing', at: 150, cap: 150, next: 'Capped. The next tier is a book from Booty Bay in Stranglethorn.' },
-        { n: 'Cooking', at: 111, cap: 150, next: 'Bristle Whisker Catfish: about 30 for 100 to 130, then 25 more for 130 to 150. Recipe from Derak Nightfall in Tarren Mill.' },
-        { n: 'First Aid', at: 87, cap: 150, next: 'Wool bandages from any wool that drops.' }
+        { n: 'Enchanting', at: 150, cap: 225, next: 'Expert trained. Updated from the Armory on Nov 24.' },
+        { n: 'Tailoring', at: 150, cap: 225, next: 'Expert trained. Updated from the Armory on Nov 24.' },
+        { n: 'Fishing', at: 154, cap: 225, next: 'Expert learned. Updated from the Armory on Nov 24.' },
+        { n: 'Cooking', at: 135, cap: 150, next: 'Bristle Whisker Catfish: about 30 for 100 to 130, then 25 more for 130 to 150. Recipe from Derak Nightfall in Tarren Mill.' },
+        { n: 'First Aid', at: 102, cap: 150, next: 'Wool bandages from any wool that drops.' }
       ],
       plan: [
         'Cloth for Tailoring and First Aid comes in on its own while questing. No dedicated farming.',
@@ -221,10 +233,10 @@ const DUOS = [
         'Fishing book: a bit out of the way. It sells in Booty Bay, so the Stranglethorn trip is a chance to grab it.',
         'Enchanting: train Expert at Sun Rock Retreat (Stonetalon Mountains).'
       ] },
-    b: { race: 'Undead', cls: 'Priest', name: 'Bone Mender', p1: 'Alchemy', p2: 'Herbalism', lvl: 30,
+    b: { race: 'Undead', cls: 'Priest', name: 'Bone Mender', p1: 'Alchemy', p2: 'Herbalism', lvl: 33,
       skills: [
-        { n: 'Herbalism', at: 92, cap: 150, next: 'Behind: Hillsbrad herbs need 100 (Bruiseweed) and 115 (Wild Steelbloom). Farm Silverpine to about 110 first. Expert training at 125.' },
-        { n: 'Alchemy', at: 78, cap: 150, next: 'Elixir of Minor Fortitude from 78 to 90 with bought Earthroot, then Elixir of Wisdom from 90 to 120.' },
+        { n: 'Herbalism', at: 167, cap: 225, next: 'Expert trained. Updated from the Armory on Nov 24.' },
+        { n: 'Alchemy', at: 225, cap: 225, next: 'Capped for this tier. Training the next tier costs about 5g, so holding off for now.' },
         { n: 'Cooking', at: 1, cap: 75, next: 'Not started.' },
         { n: 'Fishing', at: 1, cap: 75, next: 'Not started.' },
         { n: 'First Aid', at: 1, cap: 75, next: 'Not started.' }
@@ -238,13 +250,16 @@ const DUOS = [
         'Hillsbrad herbs (Bruiseweed, Wild Steelbloom, Stranglekelp) carry Alchemy past 120, starting with Lesser Mana Potion.',
         'Spare herbs: 76 Silverleaf and 16 Swiftthistle have no trainer recipe that still gives points. Sell them or keep them for later.'
       ] } },
-  { a: { race: 'Skyborne', cls: 'Hunter', name: 'Kaelor Highwind', p1: 'Skinning', p2: 'Leatherworking', lvl: 14 },
-    b: { race: 'Skyborne', cls: 'Druid', name: 'Vaelor Highwind', p1: 'Herbalism', p2: 'Mining', lvl: 14 } },
-  { a: { race: 'Orc', cls: 'Warrior', name: 'Makar Skullcleaver', p1: 'Mining', p2: 'Blacksmithing', lvl: 8 },
-    b: { race: 'Orc', cls: 'Shaman', name: 'Lokar Stormhowl', p1: 'Skinning', p2: 'Leatherworking', lvl: 8 } },
-  { a: { race: 'Undead', cls: 'Paladin', name: 'Dread Reckoning', p1: 'Mining', p2: 'Engineering', lvl: 8 },
-    b: { race: 'Undead', cls: 'Mage', name: 'Burnin Hell', p1: 'Tailoring', p2: 'Skinning', lvl: 8 } },
-  { a: { race: 'Undead', cls: 'Rogue', name: 'Encrypt Dead', p1: 'Herbalism', p2: 'Alchemy',
+  { a: { race: 'Skyborne', cls: 'Hunter', name: 'Kaelor Highwind', p1: 'Skinning', p2: 'Leatherworking', lvl: 36,
+      skills: [ { n: 'Leatherworking', at: 195, cap: 225, next: 'Thick Leather is the bottleneck. Skin it while leveling, sell the surplus toward the mount, and keep what 225 needs.' } ] },
+    b: { race: 'Skyborne', cls: 'Druid', name: 'Vaelor Highwind', p1: 'Herbalism', p2: 'Mining', lvl: 36 } },
+  { a: { race: 'Orc', cls: 'Warrior', name: 'Makar Skullcleaver', p1: 'Mining', p2: 'Blacksmithing', lvl: 10 },
+    b: { race: 'Orc', cls: 'Shaman', name: 'Lokar Stormhowl', p1: 'Skinning', p2: 'Herbalism', lvl: 10 } },
+  { a: { race: 'Undead', cls: 'Paladin', name: 'Dread Reckoning', p1: 'Mining', p2: 'Blacksmithing', lvl: 13 },
+    b: { race: 'Undead', cls: 'Mage', name: 'Burnin Hell', p1: 'Herbalism', p2: 'Skinning', lvl: 13 } },
+  { a: { race: 'Tauren', cls: 'Warrior', name: 'Kruul Ironhide', p1: 'Mining', p2: 'Engineering', lvl: 6, status: 'New duo. Getting to 10 first.' },
+    b: { race: 'Tauren', cls: 'Shaman', name: 'Kynd Stormhide', p1: 'Skinning', p2: 'Herbalism', lvl: 6 } },
+  { a: { race: 'Undead', cls: 'Rogue', name: 'Encrypt Dead', p1: 'Herbalism', p2: 'Alchemy', lvl: 4, status: 'Parked for now',
       backups: [ { name: 'Bone Smuggler', race: 'Undead', note: 'Option to try' } ] },
     b: null },
   { label: 'Bank',
@@ -423,6 +438,157 @@ const MACROS = {
   }
 };
 
+/* ===================== TODAY'S CHECKLIST ===================== */
+// Daily session checklist. Ticks are saved to the page's database (falls back to this browser if that's unavailable).
+const TODAY = {
+  date: '2026-11-24', title: 'Tuesday, Nov 24',
+  goal: 'Profession points: up to five today, plus a Dalaran City run on the Hunter and the Druid.',
+  all: [
+    { id: 'all-legacy', t: 'Spend Legacy points on rested XP first, then on the talents that build it faster and let it cap higher.' },
+    { id: 'all-rested', t: 'Check rested XP on every character before choosing who to play.' }
+  ],
+  points: [
+    { id: 'rh-tailor', t: 'Tailoring 225', who: 'Rotten Hell' },
+    { id: 'rh-ench', t: 'Enchanting 225', who: 'Rotten Hell' },
+    { id: 'kh-lw', t: 'Leatherworking 225', who: 'Kaelor Highwind' },
+    { id: 'dr-bs', t: 'Blacksmithing 150', who: 'Dread Reckoning' },
+    { id: 'kr-eng', t: 'Engineering 150', who: 'Kruul Ironhide' }
+  ],
+  chars: {
+    'Kaelor Highwind': [
+      { id: 'kh-dal', t: 'Run Dalaran City (Hunter first, so you know the pulls before the Druid goes in).' },
+      { id: 'kh-cj', t: 'Price Leatherworking 190 to 225 in Crafter\'s Journal. Note how much Thick Leather it takes.' },
+      { id: 'kh-ah', t: 'Check Thick Leather in Auctionator. Sell the surplus toward the mount and keep what 225 needs.' },
+      { id: 'kh-lw', t: 'Leatherworking to 225 (now or later, once the cost is clear).', pt: true },
+      { id: 'kh-rest', t: 'Check rested XP.' },
+      { id: 'kh-next', t: 'After Dalaran: Thousand Needles (Freewind Post, 28 to 31), then Arathi (30 to 34), Desolace (32 to 36) and Stranglethorn (35 to 40). Scarlet Monastery Graveyard fits around 32.' },
+      { id: 'kh-stv', t: 'While in Kalimdor for Thousand Needles: stop at Sun Rock Retreat in Stonetalon for the Fishing and Cooking step in the guide.' },
+      { id: 'kh-40', t: 'Push the duo toward 40 and bank gold for the mount.' }
+    ],
+    'Vaelor Highwind': [
+      { id: 'vh-dal', t: 'Run Dalaran City as a bear tank or cat DPS.' },
+      { id: 'vh-route', t: 'Travel-form gathering run to get Herbalism and Mining up to the zones you\'re questing in.' },
+      { id: 'vh-mail', t: 'Mail herbs the Priest\'s Alchemy needs to Bone Mender. Sell the rest.' },
+      { id: 'vh-rest', t: 'Check rested XP.' }
+    ],
+    'Rotten Hell': [
+      { id: 'rh-check', t: 'Open Tailoring and Enchanting and note where each one is.' },
+      { id: 'rh-tcost', t: 'Price Tailoring to 225. Silk on hand covers most of it, and near 200 the recipes switch to Mageweave.' },
+      { id: 'rh-tailor', t: 'Tailoring to 225.', pt: true },
+      { id: 'rh-de', t: 'Disenchant any green boxes and spare greens first.' },
+      { id: 'rh-ecost', t: 'Price Enchanting to 225. The dust and essences make 200 to 225 the expensive stretch.' },
+      { id: 'rh-ench', t: 'Enchanting to 225.', pt: true },
+      { id: 'rh-rest', t: 'Check rested XP.' }
+    ],
+    'Bone Mender': [
+      { id: 'bm-alch', t: 'Alchemy is at 225. Hold off on the next tier (about 5g) for now.' },
+      { id: 'bm-herb', t: 'Herbalism route to push Herbalism as high as it will go.' },
+      { id: 'bm-rest', t: 'Check rested XP.' }
+    ],
+    'Dread Reckoning': [
+      { id: 'dr-rest', t: 'Check rested XP. Only play him if it\'s close to cap.' },
+      { id: 'dr-mail', t: 'Collect the copper, tin and stone the Druid mailed, and see what\'s on hand.' },
+      { id: 'dr-split', t: 'Before crafting, split the ore with Kruul\'s Engineering so one doesn\'t eat the other\'s stock.' },
+      { id: 'dr-price', t: 'Check whether Blacksmithing mat prices have dropped.' },
+      { id: 'dr-bs', t: 'Blacksmithing to 150.', pt: true },
+      { id: 'dr-gear', t: 'Look through the recipes and craft any mail or shield he can wear. He felt squishy at 13.' },
+      { id: 'dr-mine', t: 'When questing, mine as you go to keep Mining capped.' }
+    ],
+    'Burnin Hell': [
+      { id: 'bh-rest', t: 'Check rested XP.' },
+      { id: 'bh-prof', t: 'Optional: decide whether to swap Herbalism for Enchanting so each faction has an enchanter (keep Skinning).' }
+    ],
+    'Kruul Ironhide': [
+      { id: 'kr-10', t: 'Level to 10 with Kynd, so the rested XP he builds is worth something.' },
+      { id: 'kr-learn', t: 'Learn Mining and Engineering.' },
+      { id: 'kr-cost', t: 'Price Engineering to 150: mostly Copper Bars, Rough Stone and Bronze. Plan it alongside the Paladin\'s Blacksmithing.' },
+      { id: 'kr-eng', t: 'Engineering to 150.', pt: true },
+      { id: 'kr-rest', t: 'Check rested XP.' }
+    ],
+    'Kynd Stormhide': [
+      { id: 'ky-10', t: 'Level to 10 with Kruul.' },
+      { id: 'ky-prof', t: 'Skinning and Herbalism. Sell what he gathers.' },
+      { id: 'ky-rest', t: 'Check rested XP.' }
+    ]
+  }
+};
+const TODAY_KEY = 'mcl-today-' + TODAY.date;
+let todayDone = {};
+try { todayDone = JSON.parse(localStorage.getItem(TODAY_KEY) || '{}') || {}; } catch (e) { todayDone = {}; }
+let todayDoc = null, todayWriting = false;
+const todayItems = name => TODAY.chars[name] || [];
+const todayCount = list => [list.filter(x => todayDone[x.id]).length, list.length];
+const todayBox = (x, extra) => `<label class="tdi${todayDone[x.id] ? ' done' : ''}"><input type="checkbox" data-today="${esc(x.id)}"${todayDone[x.id] ? ' checked' : ''}><span>${esc(x.t)}${x.pt ? ' <span class="tpt">+1 point</span>' : ''}${extra || ''}</span></label>`;
+function todayChar(c) {
+  const list = todayItems(label(c)); if (!list.length) return '';
+  const [d, n] = todayCount(list);
+  return `<section class="stack today">
+    <div class="vhead"><h2>Today · ${esc(TODAY.title)}</h2><p class="sub" data-today-count="${esc(label(c))}">${d} of ${n} done</p></div>
+    <div class="tdlist">${list.map(x => todayBox(x)).join('')}</div>
+    <p class="note">Every character: ${esc(TODAY.all[0].t)} <a href="#master">Full checklist</a></p>
+  </section>`;
+}
+function todayMaster() {
+  const names = Object.keys(TODAY.chars);
+  const all = names.flatMap(todayItems).concat(TODAY.all);
+  const [d, n] = todayCount(all);
+  const pts = TODAY.points.filter(p => todayDone[p.id]).length;
+  const rows = names.map(nm => {
+    const c = CHARS.find(x => label(x) === nm); const list = todayItems(nm); const [a, b] = todayCount(list);
+    return `<div class="tdchar"><a class="char c-${esc(c ? c.cls : '')}" href="#${c ? c.slug : 'master'}"><span class="nm">${esc(nm)}</span></a>` +
+      `<span class="ph" data-today-count="${esc(nm)}">${a}/${b}</span><div class="bar"><span style="width:${Math.round(100 * a / b)}%"></span></div></div>`;
+  }).join('');
+  return `<section class="stack today">
+    <div class="vhead"><h1>Today · ${esc(TODAY.title)}</h1><p class="sub" id="today-total">${d} of ${n} done · ${pts} of ${TODAY.points.length} profession points</p></div>
+    <p class="sub">${esc(TODAY.goal)} <a href="#today">See every task by pair</a></p>
+    <div class="tdgrid">
+      <div class="card"><p class="lbl">Profession points</p><div class="tdlist">${TODAY.points.map(p => todayBox(p, ` <span class="ph">${esc(p.who)}</span>`)).join('')}</div></div>
+      <div class="card"><p class="lbl">Every character</p><div class="tdlist">${TODAY.all.map(x => todayBox(x)).join('')}</div></div>
+      <div class="card"><p class="lbl">By character · open one for its list</p><div class="tdchars">${rows}</div></div>
+    </div>
+  </section>`;
+}
+function viewToday() {
+  const names = Object.keys(TODAY.chars);
+  const all = names.flatMap(todayItems).concat(TODAY.all);
+  const [d, n] = todayCount(all);
+  const pts = TODAY.points.filter(p => todayDone[p.id]).length;
+  const col = nm => {
+    const c = CHARS.find(x => label(x) === nm); const list = todayItems(nm); const [a, b] = todayCount(list);
+    return `<div class="card tdcol"><div class="tdhead">${c ? `<span class="ic">${img('ClassIcon_' + c.cls)}<a class="char c-${esc(c.cls)}" href="#${c.slug}"><span class="nm">${esc(nm)}</span></a></span>` : esc(nm)}` +
+      `<span class="ph">${a}/${b}</span></div><div class="bar"><span style="width:${b ? Math.round(100 * a / b) : 0}%"></span></div>` +
+      `<div class="tdlist">${list.map(x => todayBox(x)).join('')}</div></div>`;
+  };
+  const groups = [], seen = new Set();
+  names.forEach(nm => {
+    if (seen.has(nm)) return;
+    const c = CHARS.find(x => label(x) === nm);
+    const p = c && c.partner && names.includes(label(c.partner)) ? label(c.partner) : null;
+    const pair = p ? (c.acct === 'A' ? [nm, p] : [p, nm]) : [nm];
+    pair.forEach(x => seen.add(x));
+    groups.push({ title: c ? c.pairLabel : '', list: pair });
+  });
+  return `<section class="stack today">
+    <div class="vhead"><h1>Today · ${esc(TODAY.title)}</h1><p class="sub" id="today-total">${d} of ${n} done · ${pts} of ${TODAY.points.length} profession points</p></div>
+    <p class="sub">Every task, grouped by pair. A tick here, on the master list or on a character's page is the same tick everywhere.</p>
+    <div class="tdgrid">
+      <div class="card"><p class="lbl">Profession points</p><div class="tdlist">${TODAY.points.map(p => todayBox(p, ` <span class="ph">${esc(p.who)}</span>`)).join('')}</div></div>
+      <div class="card"><p class="lbl">Every character</p><div class="tdlist">${TODAY.all.map(x => todayBox(x)).join('')}</div></div>
+    </div>
+  </section>` + groups.map(g => `<section class="stack">
+    <h2>${esc(g.title)} · ${g.list.map(esc).join(' + ')}</h2>
+    <div class="tdpair">${g.list.map(col).join('')}</div>
+  </section>`).join('');
+}
+function todaySaveLocal() { try { localStorage.setItem(TODAY_KEY, JSON.stringify(todayDone)); } catch (e) {} }
+function todayPush() {}
+function todayRefresh() {
+  // Re-render the current view but keep the scroll position.
+  const y = window.scrollY; const h = location.hash.slice(1) || 'master';
+  if (h === 'characters' || h === 'addons') return;
+  route(); window.scrollTo(0, y);
+}
+
 /* ===================== HELPERS ===================== */
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const img = (key, size = 22) => ICONS[key] ? `<img class="ico" src="${ICONS[key]}" alt="" width="${size}" height="${size}">` : '';
@@ -470,7 +636,6 @@ PLAN.forEach(p => { const c = p.recips[0]; if (c) receives.set(c.slug, [...(rece
 const armoryUrl = c => c.name ? `https://worldofwarcraft.blizzard.com/en-us/forever/us/armory/character/${slug(c.name)}` : null;
 const armTag = c => armoryUrl(c) ? `<a class="arm" href="${armoryUrl(c)}" target="_blank" rel="noopener" title="Open ${esc(c.name)} on the Armory">Armory ↗</a>` : '';
 const lvlTag = c => armTag(c) + (c.lvl ? `<span class="lvl">Lv ${c.lvl}</span>` : '') + (c.status ? `<span class="status">${esc(c.status)}</span>` : '');
-
 /* ===================== LIVE ARMORY DATA ===================== */
 // data/characters.json is written every few hours by .github/workflows/sync.yml (Blizzard Profile API, profile-forever-us).
 // Characters show up there from level 10, after a logout. Hand-entered data stays as the fallback.
@@ -533,7 +698,7 @@ function viewMaster() {
       `<td>${p.from ? (p.gatherers.map(c => who(c, false)).join('') || '<span class="q">—</span>') : esc(p.source)}</td>` +
       `<td>${notes.join(' ') || '<span class="q">—</span>'}</td></tr>`;
   }).join('');
-  return `
+  return todayMaster() + `
   <section>
     <div class="vhead"><h1>Dualbox duos</h1><p class="sub"><b>Horde · PvE</b> &nbsp;One row per pair. Click a name for its page.</p></div>
     <div class="scroller"><table class="master" aria-label="Dualbox duos by account">
@@ -654,6 +819,7 @@ function viewChar(c) {
   </section>
   ${c.note ? `<p class="note" style="margin:-12px 0 24px">${esc(c.note)}</p>` : ''}
   ${liveSection(c)}
+  ${todayChar(c)}
   ${c.skills ? `<section class="stack">
     <h2>Profession notes</h2>${c.live ? '<p class="sub">Hand-entered. Live skill levels are in the Armory section above.</p>' : ''}
     <div class="skills">${c.skills.map(k => `<div class="skill"><div><b>${PROFS[k.n] ? profLink(k.n) : esc(k.n)}</b><span class="num">${k.at} / ${k.cap}</span><div class="bar"><span style="width:${Math.min(100, Math.round(100 * k.at / k.cap))}%"></span></div></div><p>${esc(k.next)}</p></div>`).join('')}</div>
@@ -674,11 +840,11 @@ function viewChar(c) {
 function route() {
   const h = location.hash.slice(1) || 'master';
   const ch = CHARS.find(c => c.slug === h);
-  const view = ch ? 'char' : (['master', 'characters', 'addons'].includes(h) ? h : 'master');
+  const view = ch ? 'char' : (['master', 'today', 'characters', 'addons'].includes(h) ? h : 'master');
   const navCur = ch ? null : view;
   document.querySelectorAll('nav.views a').forEach(a => a.setAttribute('aria-current', a.dataset.view === navCur ? 'page' : 'false'));
   const el = document.getElementById('view');
-  el.innerHTML = ch ? viewChar(ch) : view === 'characters' ? viewCharacters() : view === 'addons' ? viewAddons() : viewMaster();
+  el.innerHTML = ch ? viewChar(ch) : view === 'characters' ? viewCharacters() : view === 'addons' ? viewAddons() : view === 'today' ? viewToday() : viewMaster();
   if (LIVE && LIVE.updated_at && !ch) el.insertAdjacentHTML('afterbegin', `<p class="synced">Levels synced from the Armory ${ago(LIVE.updated_at)}.</p>`);
   if (window.$WowheadPower && $WowheadPower.refreshLinks) $WowheadPower.refreshLinks();
   if (view === 'characters') renderList();
@@ -718,7 +884,43 @@ document.addEventListener('input', e => {
 });
 route();
 loadLive();
+// Today's checklist: keep ticks in the page database so they follow you between devices.
+let todayDirty = false;
+todayPush = function () {
+  todaySaveLocal();
+  if (!todayDoc) return;
+  if (todayWriting) { todayDirty = true; return; }
+  todayWriting = true;
+  todayDoc.set({ date: TODAY.date, done: { ...todayDone } }).catch(() => {}).finally(() => {
+    todayWriting = false; if (todayDirty) { todayDirty = false; todayPush(); }
+  });
+};
+document.addEventListener('change', e => {
+  const id = e.target.dataset && e.target.dataset.today; if (!id) return;
+  if (e.target.checked) todayDone[id] = true; else delete todayDone[id];
+  todayPush(); todayRefresh();
+});
+(async () => {
+  try {
+    if (!window.claude || typeof window.claude.use !== 'function') return;
+    const db = await window.claude.use('db'); if (!db) return;
+    const ref = db.doc('checklists/' + TODAY.date);
+    let first = true;
+    ref.onSnapshot(snap => {
+      if (snap.metadata && snap.metadata.hasPendingWrites) return;
+      const d = snap.exists ? snap.data() : null;
+      if (first) {
+        first = false; todayDoc = ref;
+        // Nothing saved yet: carry over any ticks made in this browser before the database answered.
+        if (!d || !d.done) { if (Object.keys(todayDone).length) todayPush(); return; }
+      }
+      if (d && d.done && typeof d.done === 'object' && !todayWriting) {
+        const next = {}; Object.keys(d.done).forEach(k => { if (d.done[k] === true) next[k] = true; });
+        if (JSON.stringify(next) !== JSON.stringify(todayDone)) { todayDone = next; todaySaveLocal(); todayRefresh(); }
+      }
+    }, () => { todayDoc = null; });
+  } catch (e) { /* stays on this browser's copy */ }
+})();
 </script>
 
-</body>
-</html>
+</body></html>
