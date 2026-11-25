@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-25T04:17:21.057Z",
+  "updated_at": "2026-11-25T17:20:51.317Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -333,13 +333,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795577748000,
+      "last_login": 1795600523000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
           {
             "name": "Beast Mastery",
-            "points": 28
+            "points": 29
           }
         ]
       },
@@ -375,7 +375,7 @@
         {
           "name": "First Aid",
           "kind": "secondary",
-          "skill": 89,
+          "skill": 92,
           "max": 150,
           "tier": "First Aid"
         }
@@ -389,8 +389,8 @@
         },
         {
           "slot": "Neck",
-          "id": 5003,
-          "name": "Crystal Starfire Medallion",
+          "id": 12040,
+          "name": "Forest Pendant of the Beast",
           "quality": "UNCOMMON"
         },
         {
@@ -467,14 +467,14 @@
         },
         {
           "slot": "Back",
-          "id": 6449,
-          "name": "Glowing Lizardscale Cloak",
-          "quality": "RARE"
+          "id": 9890,
+          "name": "Huntsman's Cape of the Bandit",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Main Hand",
-          "id": 6504,
-          "name": "Wingblade",
+          "id": 6802,
+          "name": "Sword of Omen",
           "quality": "RARE"
         },
         {
@@ -485,14 +485,14 @@
         },
         {
           "slot": "Ranged",
-          "id": 274084,
-          "name": "Quilboar Blaster",
+          "id": 274293,
+          "name": "Spellsever Crossbow",
           "quality": "RARE"
         },
         {
           "slot": "Ammo",
-          "id": 3033,
-          "name": "Solid Shot",
+          "id": 3030,
+          "name": "Razor Arrow",
           "quality": "COMMON"
         }
       ],
@@ -502,7 +502,7 @@
       "name": "Vaelor Highwind",
       "slug": "vaelor-highwind",
       "ok": true,
-      "level": 36,
+      "level": 37,
       "race": "Windshaper Skyborne",
       "class": "Druid",
       "faction": "Horde",
@@ -511,13 +511,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795577072000,
+      "last_login": 1795600525000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
           {
             "name": "Feral Combat",
-            "points": 27
+            "points": 29
           }
         ]
       },
@@ -526,13 +526,13 @@
           "name": "Mining",
           "kind": "primary",
           "skill": 134,
-          "max": 150,
+          "max": 225,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 136,
+          "skill": 137,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -596,8 +596,8 @@
         },
         {
           "slot": "Feet",
-          "id": 3741,
-          "name": "Stomping Boots",
+          "id": 251963,
+          "name": "Gravewalker Boots",
           "quality": "UNCOMMON"
         },
         {
@@ -644,8 +644,8 @@
         },
         {
           "slot": "Main Hand",
-          "id": 271766,
-          "name": "Heavehammer",
+          "id": 279844,
+          "name": "Striking Staff",
           "quality": "RARE"
         }
       ],
@@ -662,9 +662,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": null,
-      "ilvl": 4,
-      "ilvl_avg": 4,
-      "last_login": 1795466632000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795595171000,
       "spec": {
         "active": "Protection",
         "trees": [
@@ -709,71 +709,61 @@
           "slot": "Shirt",
           "id": 6125,
           "name": "Brawler's Harness",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
           "id": 10421,
           "name": "Rough Copper Vest",
-          "quality": "UNCOMMON",
-          "ilvl": 10
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Waist",
           "id": 6509,
           "name": "Infantry Belt",
-          "quality": "COMMON",
-          "ilvl": 10
+          "quality": "COMMON"
         },
         {
           "slot": "Legs",
           "id": 281267,
           "name": "Raptorscale Pants",
-          "quality": "UNCOMMON",
-          "ilvl": 8
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Feet",
           "id": 4946,
           "name": "Lightweight Boots",
-          "quality": "COMMON",
-          "ilvl": 10
+          "quality": "COMMON"
         },
         {
           "slot": "Wrist",
           "id": 2643,
           "name": "Loose Chain Bracers",
-          "quality": "POOR",
-          "ilvl": 10
+          "quality": "POOR"
         },
         {
           "slot": "Hands",
           "id": 2653,
           "name": "Flimsy Chain Gloves",
-          "quality": "POOR",
-          "ilvl": 4
+          "quality": "POOR"
         },
         {
           "slot": "Ring 1",
           "id": 281268,
           "name": "Depleted Ritual Band",
-          "quality": "COMMON",
-          "ilvl": 9
+          "quality": "COMMON"
         },
         {
           "slot": "Back",
           "id": 4933,
           "name": "Seasoned Fighter's Cloak",
-          "quality": "COMMON",
-          "ilvl": 9
+          "quality": "COMMON"
         },
         {
           "slot": "Main Hand",
           "id": 4562,
           "name": "Severing Axe of Stamina",
-          "quality": "UNCOMMON",
-          "ilvl": 10
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/144/5400208-avatar.jpg"
@@ -908,13 +898,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795573568000,
+      "last_login": 1795599949000,
       "spec": {
         "active": "Retribution",
         "trees": [
           {
             "name": "Retribution",
-            "points": 5
+            "points": 6
           }
         ]
       },
@@ -922,14 +912,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 108,
+          "skill": 115,
           "max": 150,
           "tier": "Mining"
         },
         {
           "name": "Blacksmithing",
           "kind": "primary",
-          "skill": 100,
+          "skill": 150,
           "max": 150,
           "tier": "Blacksmithing"
         },
@@ -943,7 +933,7 @@
         {
           "name": "First Aid",
           "kind": "secondary",
-          "skill": 50,
+          "skill": 53,
           "max": 75,
           "tier": "First Aid"
         }
@@ -963,8 +953,8 @@
         },
         {
           "slot": "Waist",
-          "id": 6548,
-          "name": "Soldier's Girdle of the Owl",
+          "id": 2857,
+          "name": "Runed Copper Belt",
           "quality": "UNCOMMON"
         },
         {
@@ -975,9 +965,9 @@
         },
         {
           "slot": "Feet",
-          "id": 3469,
-          "name": "Copper Chain Boots",
-          "quality": "UNCOMMON"
+          "id": 250620,
+          "name": "Gemmed Copper Boots",
+          "quality": "RARE"
         },
         {
           "slot": "Wrist",
