@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-24T20:41:42.578Z",
+  "updated_at": "2026-11-25T04:17:21.057Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -13,9 +13,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 25,
-      "ilvl_avg": 25,
-      "last_login": 1795466887000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795556128000,
       "spec": {
         "active": "Affliction",
         "trees": [
@@ -67,106 +67,91 @@
           "slot": "Head",
           "id": 3732,
           "name": "Hooded Cowl",
-          "quality": "COMMON",
-          "ilvl": 30
+          "quality": "COMMON"
         },
         {
           "slot": "Neck",
           "id": 281265,
           "name": "Roadwatcher's Confidence",
-          "quality": "UNCOMMON",
-          "ilvl": 20
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shoulders",
           "id": 4197,
           "name": "Berylline Pads",
-          "quality": "RARE",
-          "ilvl": 36
+          "quality": "RARE"
         },
         {
           "slot": "Chest",
           "id": 271206,
           "name": "Leftover Abomination Skin",
-          "quality": "RARE",
-          "ilvl": 20
+          "quality": "RARE"
         },
         {
           "slot": "Waist",
           "id": 286980,
           "name": "Rotmender's Sash",
-          "quality": "RARE",
-          "ilvl": 22
+          "quality": "RARE"
         },
         {
           "slot": "Legs",
           "id": 270011,
           "name": "Embroidered Leggings",
-          "quality": "UNCOMMON",
-          "ilvl": 21
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Feet",
           "id": 6482,
           "name": "Firewalker Boots",
-          "quality": "UNCOMMON",
-          "ilvl": 24
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
           "id": 271740,
           "name": "Knife-Polishing Rag",
-          "quality": "UNCOMMON",
-          "ilvl": 33
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
           "id": 270030,
           "name": "Tattered Mittens",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 1",
           "id": 6750,
           "name": "Snake Hoop",
-          "quality": "UNCOMMON",
-          "ilvl": 32
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 2",
           "id": 273030,
           "name": "Ring of Power Regulation",
-          "quality": "RARE",
-          "ilvl": 33
+          "quality": "RARE"
         },
         {
           "slot": "Trinket 1",
           "id": 276895,
           "name": "Transformative Cocoon",
-          "quality": "UNCOMMON",
-          "ilvl": 30
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
           "id": 271719,
           "name": "Furs of the Earthen Ring",
-          "quality": "RARE",
-          "ilvl": 33
+          "quality": "RARE"
         },
         {
           "slot": "Main Hand",
           "id": 6505,
           "name": "Crescent Staff",
-          "quality": "RARE",
-          "ilvl": 24
+          "quality": "RARE"
         },
         {
           "slot": "Ranged",
           "id": 5250,
           "name": "Charred Wand",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/95/635487-avatar.jpg"
@@ -182,9 +167,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 26,
-      "ilvl_avg": 26,
-      "last_login": 1795466889000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795555686000,
       "spec": {
         "active": "Shadow Magic",
         "trees": [
@@ -209,7 +194,7 @@
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 167,
+          "skill": 169,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -240,113 +225,97 @@
           "slot": "Head",
           "id": 3732,
           "name": "Hooded Cowl",
-          "quality": "COMMON",
-          "ilvl": 30
+          "quality": "COMMON"
         },
         {
           "slot": "Neck",
           "id": 281265,
           "name": "Roadwatcher's Confidence",
-          "quality": "UNCOMMON",
-          "ilvl": 20
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shoulders",
           "id": 4197,
           "name": "Berylline Pads",
-          "quality": "RARE",
-          "ilvl": 36
+          "quality": "RARE"
         },
         {
           "slot": "Shirt",
           "id": 53,
           "name": "Neophyte's Shirt",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
           "id": 6682,
           "name": "Death Speaker Robes",
-          "quality": "RARE",
-          "ilvl": 31
+          "quality": "RARE"
         },
         {
           "slot": "Waist",
           "id": 271210,
           "name": "Tuskwrap Belt",
-          "quality": "RARE",
-          "ilvl": 21
+          "quality": "RARE"
         },
         {
           "slot": "Legs",
           "id": 270011,
           "name": "Embroidered Leggings",
-          "quality": "UNCOMMON",
-          "ilvl": 21
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Feet",
           "id": 6482,
           "name": "Firewalker Boots",
-          "quality": "UNCOMMON",
-          "ilvl": 24
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
           "id": 271740,
           "name": "Knife-Polishing Rag",
-          "quality": "UNCOMMON",
-          "ilvl": 33
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
           "id": 270030,
           "name": "Tattered Mittens",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 1",
           "id": 3739,
           "name": "Skull Ring",
-          "quality": "UNCOMMON",
-          "ilvl": 25
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 2",
           "id": 6750,
           "name": "Snake Hoop",
-          "quality": "UNCOMMON",
-          "ilvl": 32
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Trinket 1",
           "id": 276895,
           "name": "Transformative Cocoon",
-          "quality": "UNCOMMON",
-          "ilvl": 30
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
           "id": 15468,
           "name": "Windsong Drape",
-          "quality": "UNCOMMON",
-          "ilvl": 29
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Main Hand",
           "id": 6689,
           "name": "Wind Spirit Staff",
-          "quality": "RARE",
-          "ilvl": 34
+          "quality": "RARE"
         },
         {
           "slot": "Ranged",
           "id": 5250,
           "name": "Charred Wand",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/53/1517877-avatar.jpg"
@@ -355,22 +324,22 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 36,
+      "level": 37,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
       "gender": "Male",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 30,
-      "ilvl_avg": 30,
-      "last_login": 1795509669000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795577748000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
           {
             "name": "Beast Mastery",
-            "points": 27
+            "points": 28
           }
         ]
       },
@@ -416,134 +385,115 @@
           "slot": "Head",
           "id": 3732,
           "name": "Hooded Cowl",
-          "quality": "COMMON",
-          "ilvl": 30
+          "quality": "COMMON"
         },
         {
           "slot": "Neck",
           "id": 5003,
           "name": "Crystal Starfire Medallion",
-          "quality": "UNCOMMON",
-          "ilvl": 31
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shoulders",
           "id": 15127,
           "name": "Robust Shoulders of the Bandit",
-          "quality": "UNCOMMON",
-          "ilvl": 30
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shirt",
           "id": 271668,
           "name": "Thendal Survivalist's Shirt",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
-          "id": 273026,
-          "name": "Garb of Florid Feathers",
-          "quality": "RARE",
-          "ilvl": 31
+          "id": 273038,
+          "name": "Garb of Fallen Felbark",
+          "quality": "RARE"
         },
         {
           "slot": "Waist",
           "id": 252521,
           "name": "Stalker's Leather Belt",
-          "quality": "RARE",
-          "ilvl": 35
+          "quality": "RARE"
         },
         {
           "slot": "Legs",
           "id": 9624,
           "name": "Triprunner Dungarees",
-          "quality": "RARE",
-          "ilvl": 37
+          "quality": "RARE"
         },
         {
           "slot": "Feet",
-          "id": 3741,
-          "name": "Stomping Boots",
-          "quality": "UNCOMMON",
-          "ilvl": 24
+          "id": 251963,
+          "name": "Gravewalker Boots",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
           "id": 271732,
           "name": "Dirt-Heavy Bracers",
-          "quality": "UNCOMMON",
-          "ilvl": 33
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
           "id": 10413,
           "name": "Gloves of the Fang",
-          "quality": "RARE",
-          "ilvl": 19
+          "quality": "RARE"
         },
         {
           "slot": "Ring 1",
           "id": 12008,
           "name": "Savannah Ring of the Bandit",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 2",
           "id": 6748,
           "name": "Monkey Ring",
-          "quality": "UNCOMMON",
-          "ilvl": 32
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Trinket 1",
           "id": 276895,
           "name": "Transformative Cocoon",
-          "quality": "UNCOMMON",
-          "ilvl": 30
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Trinket 2",
           "id": 280766,
           "name": "Satchel of Potions",
-          "quality": "UNCOMMON",
-          "ilvl": 33
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
           "id": 6449,
           "name": "Glowing Lizardscale Cloak",
-          "quality": "RARE",
-          "ilvl": 23
+          "quality": "RARE"
         },
         {
           "slot": "Main Hand",
           "id": 6504,
           "name": "Wingblade",
-          "quality": "RARE",
-          "ilvl": 24
+          "quality": "RARE"
         },
         {
           "slot": "Off Hand",
           "id": 16886,
           "name": "Outlaw Sabre",
-          "quality": "RARE",
-          "ilvl": 32
+          "quality": "RARE"
         },
         {
           "slot": "Ranged",
           "id": 274084,
           "name": "Quilboar Blaster",
-          "quality": "RARE",
-          "ilvl": 36
+          "quality": "RARE"
         },
         {
           "slot": "Ammo",
           "id": 3033,
           "name": "Solid Shot",
-          "quality": "COMMON",
-          "ilvl": 30
+          "quality": "COMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/75/5350475-avatar.jpg"
@@ -559,9 +509,9 @@
       "gender": "Female",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 29,
-      "ilvl_avg": 32,
-      "last_login": 1795509575000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795577072000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
@@ -575,14 +525,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 121,
+          "skill": 134,
           "max": 150,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 128,
+          "skill": 136,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -606,113 +556,97 @@
           "slot": "Head",
           "id": 3732,
           "name": "Hooded Cowl",
-          "quality": "COMMON",
-          "ilvl": 30
+          "quality": "COMMON"
         },
         {
           "slot": "Neck",
           "id": 273088,
           "name": "Snake Eye Kaleidoscope",
-          "quality": "RARE",
-          "ilvl": 22
+          "quality": "RARE"
         },
         {
           "slot": "Shoulders",
           "id": 270023,
           "name": "Tanned Shoulderpads",
-          "quality": "UNCOMMON",
-          "ilvl": 27
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shirt",
           "id": 271668,
           "name": "Thendal Survivalist's Shirt",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
           "id": 15471,
           "name": "Brawnhide Armor",
-          "quality": "UNCOMMON",
-          "ilvl": 29
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Waist",
-          "id": 7406,
-          "name": "Infiltrator Cord of the Bandit",
-          "quality": "UNCOMMON",
-          "ilvl": 32
+          "id": 16659,
+          "name": "Deftkin Belt",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Legs",
           "id": 9624,
           "name": "Triprunner Dungarees",
-          "quality": "RARE",
-          "ilvl": 37
+          "quality": "RARE"
         },
         {
           "slot": "Feet",
-          "id": 6335,
-          "name": "Grizzled Boots",
-          "quality": "UNCOMMON",
-          "ilvl": 28
+          "id": 3741,
+          "name": "Stomping Boots",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
           "id": 270032,
           "name": "Cultist's Armguards",
-          "quality": "RARE",
-          "ilvl": 29
+          "quality": "RARE"
         },
         {
           "slot": "Hands",
-          "id": 9806,
-          "name": "Superior Gloves of the Knight",
-          "quality": "UNCOMMON",
-          "ilvl": 27
+          "id": 274159,
+          "name": "Thorncursed Grips",
+          "quality": "RARE"
         },
         {
           "slot": "Ring 1",
           "id": 6414,
           "name": "Seal of Sylvanas",
-          "quality": "RARE",
-          "ilvl": 29
+          "quality": "RARE"
         },
         {
           "slot": "Ring 2",
-          "id": 273839,
-          "name": "Spiked Shell Band",
-          "quality": "RARE",
-          "ilvl": 27
+          "id": 6748,
+          "name": "Monkey Ring",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Trinket 1",
           "id": 276895,
           "name": "Transformative Cocoon",
-          "quality": "UNCOMMON",
-          "ilvl": 30
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Trinket 2",
           "id": 280766,
           "name": "Satchel of Potions",
-          "quality": "UNCOMMON",
-          "ilvl": 33
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
-          "id": 6629,
-          "name": "Sporid Cape",
-          "quality": "RARE",
-          "ilvl": 22
+          "id": 16658,
+          "name": "Wildhunter Cloak",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Main Hand",
           "id": 271766,
           "name": "Heavehammer",
-          "quality": "RARE",
-          "ilvl": 33
+          "quality": "RARE"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/152/5157784-avatar.jpg"
@@ -855,9 +789,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": null,
-      "ilvl": 3,
-      "ilvl_avg": 3,
-      "last_login": 1795466630000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795556032000,
       "spec": {
         "active": "Enhancement",
         "trees": [
@@ -902,71 +836,61 @@
           "slot": "Shirt",
           "id": 154,
           "name": "Primitive Mantle",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
           "id": 4916,
           "name": "Soft Wool Vest",
-          "quality": "COMMON",
-          "ilvl": 5
+          "quality": "COMMON"
         },
         {
           "slot": "Waist",
           "id": 3370,
           "name": "Patchwork Belt",
-          "quality": "POOR",
-          "ilvl": 8
+          "quality": "POOR"
         },
         {
           "slot": "Legs",
           "id": 4921,
           "name": "Dust-covered Leggings",
-          "quality": "COMMON",
-          "ilvl": 5
+          "quality": "COMMON"
         },
         {
           "slot": "Wrist",
           "id": 4928,
           "name": "Sandrunner Wristguards",
-          "quality": "COMMON",
-          "ilvl": 8
+          "quality": "COMMON"
         },
         {
           "slot": "Hands",
           "id": 4940,
           "name": "Veiled Grips",
-          "quality": "COMMON",
-          "ilvl": 10
+          "quality": "COMMON"
         },
         {
           "slot": "Ring 2",
           "id": 281268,
           "name": "Depleted Ritual Band",
-          "quality": "COMMON",
-          "ilvl": 9
+          "quality": "COMMON"
         },
         {
           "slot": "Back",
           "id": 15483,
           "name": "War Torn Cape",
-          "quality": "COMMON",
-          "ilvl": 10
+          "quality": "COMMON"
         },
         {
           "slot": "Main Hand",
           "id": 286728,
           "name": "Kolkar Hammer",
-          "quality": "COMMON",
-          "ilvl": 8
+          "quality": "COMMON"
         },
         {
           "slot": "Off Hand",
           "id": 15486,
           "name": "War Torn Shield of Power",
-          "quality": "UNCOMMON",
-          "ilvl": 12
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/27/5387035-avatar.jpg"
@@ -982,9 +906,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 5,
-      "ilvl_avg": 6,
-      "last_login": 1795517270000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795573568000,
       "spec": {
         "active": "Retribution",
         "trees": [
@@ -1029,64 +953,55 @@
           "slot": "Shirt",
           "id": 6125,
           "name": "Brawler's Harness",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
           "id": 10421,
           "name": "Rough Copper Vest",
-          "quality": "UNCOMMON",
-          "ilvl": 10
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Waist",
           "id": 6548,
           "name": "Soldier's Girdle of the Owl",
-          "quality": "UNCOMMON",
-          "ilvl": 16
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Legs",
           "id": 3473,
           "name": "Runed Copper Pants",
-          "quality": "UNCOMMON",
-          "ilvl": 13
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Feet",
           "id": 3469,
           "name": "Copper Chain Boots",
-          "quality": "UNCOMMON",
-          "ilvl": 10
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
           "id": 2853,
           "name": "Copper Bracers",
-          "quality": "COMMON",
-          "ilvl": 7
+          "quality": "COMMON"
         },
         {
           "slot": "Hands",
           "id": 3472,
           "name": "Runed Copper Gauntlets",
-          "quality": "UNCOMMON",
-          "ilvl": 12
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
           "id": 6555,
           "name": "Bard's Cloak",
-          "quality": "COMMON",
-          "ilvl": 14
+          "quality": "COMMON"
         },
         {
           "slot": "Main Hand",
           "id": 4567,
           "name": "Merc Sword of Power",
-          "quality": "UNCOMMON",
-          "ilvl": 16
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/201/1518025-avatar.jpg"
@@ -1102,9 +1017,9 @@
       "gender": "Male",
       "ruleset": "Normal",
       "guild": "Eternal Demise",
-      "ilvl": 3,
-      "ilvl_avg": 4,
-      "last_login": 1795466817000,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795556253000,
       "spec": {
         "active": "Arcane",
         "trees": [
@@ -1149,64 +1064,55 @@
           "slot": "Shirt",
           "id": 6096,
           "name": "Apprentice's Shirt",
-          "quality": "COMMON",
-          "ilvl": 1
+          "quality": "COMMON"
         },
         {
           "slot": "Chest",
-          "id": 3270,
-          "name": "Flax Vest",
-          "quality": "COMMON",
-          "ilvl": 5
+          "id": 6241,
+          "name": "White Linen Robe",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Waist",
           "id": 11848,
           "name": "Flax Belt",
-          "quality": "COMMON",
-          "ilvl": 5
+          "quality": "COMMON"
         },
         {
           "slot": "Legs",
-          "id": 3834,
-          "name": "Sturdy Cloth Trousers",
-          "quality": "COMMON",
-          "ilvl": 8
+          "id": 4309,
+          "name": "Handstitched Linen Britches",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Feet",
-          "id": 3274,
-          "name": "Flax Boots",
-          "quality": "COMMON",
-          "ilvl": 5
+          "id": 2569,
+          "name": "Linen Boots",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Wrist",
-          "id": 6060,
-          "name": "Flax Bracers",
-          "quality": "COMMON",
-          "ilvl": 5
+          "id": 4308,
+          "name": "Green Linen Bracers",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
-          "id": 12299,
-          "name": "Netted Gloves",
-          "quality": "COMMON",
-          "ilvl": 8
+          "id": 4307,
+          "name": "Heavy Linen Gloves",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Back",
           "id": 3322,
           "name": "Wispy Cloak",
-          "quality": "UNCOMMON",
-          "ilvl": 10
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Main Hand",
           "id": 3277,
           "name": "Executor Staff",
-          "quality": "COMMON",
-          "ilvl": 5
+          "quality": "COMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/113/1614449-avatar.jpg"
@@ -1238,6 +1144,18 @@
     {
       "name": "Over Draught",
       "slug": "over-draught",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Kruul Ironhide",
+      "slug": "kruul-ironhide",
+      "ok": false,
+      "status": 404
+    },
+    {
+      "name": "Kynd Stormhide",
+      "slug": "kynd-stormhide",
       "ok": false,
       "status": 404
     }
