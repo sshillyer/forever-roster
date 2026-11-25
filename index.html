@@ -596,9 +596,31 @@ const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, 
 const has = (c, p) => c.p1 === p || c.p2 === p;
 const label = c => c.name || `${c.race} ${c.cls}`.trim();
 const WH = 'https://www.wowhead.com/forever/';
-function profLink(name) {
+const GUIDES = {"Alchemy":{"url":"https://www.wow-professions.com/forever/alchemy-leveling-guide","s":[[55,"Apprentice","Apprentice (1-55)"],[150,"Journeyman","Journeyman (55-150)"],[225,"Expert","Expert (150-225)"],[300,"Artisan","Artisan (225-300)"]]},"Blacksmithing":{"url":"https://www.wow-professions.com/forever/blacksmithing-leveling-guide","s":[[75,"Apprentice","Apprentice (1-75)"],[140,"Journeyman","Journeyman (75-140)"],[210,"Expert","Expert (140-210)"],[300,"Artisan","Artisan (210-300)"]]},"Enchanting":{"url":"https://www.wow-professions.com/forever/enchanting-leveling-guide","s":[[70,"Apprentice","Apprentice (1-70)"],[150,"Journeyman","Journeyman (70-150)"],[225,"Expert","Expert (150-225)"],[300,"Artisan","Artisan (225-300)"]]},"Engineering":{"url":"https://www.wow-professions.com/forever/engineering-leveling-guide","s":[[50,"Apprentice","Apprentice (1-50)"],[150,"Journeyman","Journeyman (50-150)"],[200,"Expert","Expert (150-200)"],[300,"Artisan","Artisan (200-300)"]]},"Leatherworking":{"url":"https://www.wow-professions.com/forever/leatherworking-leveling-guide","s":[[60,"Apprentice","Apprentice (1-60)"],[130,"Journeyman","Journeyman (60-130)"],[205,"Expert","Expert (130-205)"],[300,"Artisan","Artisan (205-300)"]]},"Tailoring":{"url":"https://www.wow-professions.com/forever/tailoring-leveling-guide","s":[[55,"Apprentice","Apprentice (1-55)"],[140,"Journeyman","Journeyman (55-140)"],[200,"Expert","Expert (140-200)"],[300,"Artisan","Artisan (200-300)"]]},"Cooking":{"url":"https://www.wow-professions.com/forever/cooking-leveling-guide","s":[[50,"Apprentice","Apprentice (1-50)"],[150,"Journeyman","Journeyman (50-150)"],[225,"Expert","Expert (150-225)"],[300,"Artisan","Artisan (225-300)"]]},"First Aid":{"url":"https://www.wow-professions.com/forever/first-aid-leveling-guide","s":[[75,"Apprentice","Apprentice (1-75)"],[150,"Journeyman","Journeyman (75-150)"],[225,"Expert","Expert (150-225)"],[300,"Artisan","Artisan (225-300)"]]},"Mining":{"url":"https://www.wow-professions.com/forever/mining-leveling-guide","s":[[65,"1-65","1-65"],[125,"65-125","65-125"],[175,"125-175","125-175"],[245,"175-245","175-245"],[275,"245-275","245-275"],[300,"275-300","275-300"]]},"Herbalism":{"url":"https://www.wow-professions.com/forever/herbalism-leveling-guide","s":[[70,"1-70","1-70"],[115,"70-115","70-115"],[170,"115-170","115-170"],[205,"170-205","170-205"],[230,"205-230","205-230"],[270,"230-270","230-270"],[300,"270-300","270-300"]]},"Skinning":{"url":"https://www.wow-professions.com/forever/skinning-leveling-guide","s":[[75,"1-75","1-75"],[150,"75-150","75-150"],[225,"150-225","150-225"],[280,"225-280","225-280"],[300,"280-300","280-300"]]},"Fishing":{"url":"https://www.wow-professions.com/forever/fishing-leveling-guide","s":[[75,"1-75","1-75"],[150,"75-150","75-150"],[225,"150-225","150-225"],[300,"225-300","225-300"]]}};
+// Profession skills from the Armory, Nov 24. The GitHub version reads live numbers instead.
+const SKILL_SNAPSHOT = {"rotten-hell":{"Tailoring":150,"Enchanting":150,"Cooking":135,"Fishing":154,"First Aid":102},"bone-mender":{"Alchemy":225,"Herbalism":167,"Cooking":1,"Fishing":1,"First Aid":1},"kaelor-highwind":{"Leatherworking":195,"Skinning":251,"Cooking":141,"Fishing":142,"First Aid":89},"vaelor-highwind":{"Mining":121,"Herbalism":128,"Cooking":1,"First Aid":65},"makar-skullcleaver":{"Mining":60,"Blacksmithing":41,"Cooking":1,"First Aid":29},"lokar-stormhowl":{"Skinning":75,"Herbalism":16,"Cooking":1,"First Aid":1},"dread-reckoning":{"Mining":108,"Blacksmithing":100,"Cooking":14,"First Aid":50},"burnin-hell":{"Skinning":96,"Herbalism":30,"Cooking":1,"First Aid":20}};
+// Current skill for a character's profession: live Armory data, then the snapshot, then hand-entered skills.
+function skillOf(c, name) {
+  if (!c) return null;
+  const lp = c.live && (c.live.professions || []).find(p => p.name === name);
+  if (lp && lp.skill != null) return lp.skill;
+  const sp = c.name && SKILL_SNAPSHOT[slug(c.name)];
+  if (sp && sp[name] != null) return sp[name];
+  const hk = (c.skills || []).find(k => k.n === name);
+  return hk ? hk.at : null;
+}
+// Guide section for a skill: the first section that ends above it, so a capped 150 points to the next tier.
+function guideFor(name, skill) {
+  const g = GUIDES[name]; if (!g) return null;
+  if (skill == null) return { href: g.url, title: `${name} leveling guide` };
+  const sec = g.s.find(x => skill < x[0]) || g.s[g.s.length - 1];
+  return { href: `${g.url}#${sec[1]}`, title: `${name} guide: ${sec[2]} (you're at ${skill})` };
+}
+function profLink(name, c, skill) {
   const p = PROFS[name]; if (!p) return name ? esc(name) : '<span class="q">—</span>';
-  return `<a class="wh" href="${WH}skill=${p.id}/${p.slug}" target="_blank" rel="noopener">${img(p.icon)}<span>${esc(name)}</span></a>`;
+  const g = guideFor(name, skill != null ? skill : skillOf(c, name));
+  const href = g ? g.href : `${WH}skill=${p.id}/${p.slug}`;
+  return `<a class="wh" href="${href}" target="_blank" rel="noopener"${g ? ` title="${esc(g.title)}"` : ''}>${img(p.icon)}<span>${esc(name)}</span></a>`;
 }
 function raceLink(race) {
   if (!race) return '<span class="q">—</span>';
@@ -669,7 +691,7 @@ function liveSection(c) {
       ${fact('Spec', l.spec && (l.spec.active || (l.spec.trees || []).map(t => `${esc(t.name)} ${t.points}`).join(' / ')) ? esc(l.spec.active || '') + ((l.spec.trees || []).length ? ` <span class="q">${l.spec.trees.map(t => t.points ?? 0).join('/')}</span>` : '') : null)}
       ${fact('Guild', l.guild ? esc(l.guild) : null)}
     </div>
-    ${profs.length ? `<div class="skills" style="margin-top:12px">${profs.map(p => `<div class="skill"><div><b>${PROFS[p.name] ? profLink(p.name) : esc(p.name)}</b><span class="num">${p.skill ?? '?'} / ${p.max ?? '?'}</span><div class="bar"><span style="width:${p.skill && p.max ? Math.min(100, Math.round(100 * p.skill / p.max)) : 0}%"></span></div></div><p>${esc(p.tier || (p.kind === 'secondary' ? 'Secondary skill' : ''))}</p></div>`).join('')}</div>` : ''}
+    ${profs.length ? `<div class="skills" style="margin-top:12px">${profs.map(p => `<div class="skill"><div><b>${PROFS[p.name] ? profLink(p.name, c, p.skill) : esc(p.name)}</b><span class="num">${p.skill ?? '?'} / ${p.max ?? '?'}</span><div class="bar"><span style="width:${p.skill && p.max ? Math.min(100, Math.round(100 * p.skill / p.max)) : 0}%"></span></div></div><p>${esc(p.tier || (p.kind === 'secondary' ? 'Secondary skill' : ''))}</p></div>`).join('')}</div>` : ''}
     ${gear.length ? `<table class="gear"><thead><tr><th>Slot</th><th>Item</th><th>iLvl</th></tr></thead><tbody>${gear.map(i => `<tr><td class="q">${esc(i.slot || '')}</td><td><a href="${WH}item=${i.id}" target="_blank" rel="noopener" style="color:${QCOL[i.quality] || 'inherit'}">${esc(i.name)}</a></td><td>${i.ilvl ?? ''}</td></tr>`).join('')}</tbody></table>` : ''}
   </section>`;
 }
@@ -681,7 +703,7 @@ function viewMaster() {
     return `<td>${raceLink(c.race)}</td><td class="cls">${classLink(c.cls)}</td>` +
       `<td class="name"><span class="q">“</span>${charLink(ch)}<span class="q">”</span>${lvlTag(c)}` +
       `${c.todo ? `<span class="grab">${esc(c.todo)}</span>` : ''}${gets ? `<span class="gets">${esc(gets.join(', '))}</span>` : ''}</td>` +
-      `<td>${profLink(c.p1)}</td><td>${profLink(c.p2)}</td>`;
+      `<td>${profLink(c.p1, c)}</td><td>${profLink(c.p2, c)}</td>`;
   };
   const rows = DUOS.map((d, i) => `<tr${d.label ? ' class="bankrow"' : ''}><td class="duo">${d.label ? esc(d.label) : i + 1}</td>` +
     `${side(d.a, i, 'a')}<td class="gap" aria-hidden="true"></td>${side(d.b, i, 'b')}</tr>`).join('');
@@ -766,7 +788,7 @@ function renderList() {
     <td><span class="fac ${c.faction}">${c.faction}</span></td>
     <td class="name">${charLink(c)}${lvlTag(c)}${c.todo ? `<span class="grab">${esc(c.todo)}</span>` : ''}</td>
     <td>${raceLink(c.race)}</td><td class="cls">${classLink(c.cls)}</td>
-    <td>${profLink(c.p1)}</td><td>${profLink(c.p2)}</td>
+    <td>${profLink(c.p1, c)}</td><td>${profLink(c.p2, c)}</td>
     <td><span class="acc">${c.acct}</span></td><td>${esc(c.pairLabel)}</td><td>${esc(c.role)}</td></tr>`).join('')
     : `<tr><td colspan="${COLS.length}" class="none">No characters match. Clear a filter or the search.</td></tr>`;
   document.getElementById('f-count').textContent = `${rows.length} of ${CHARS.length}`;
@@ -812,7 +834,7 @@ function viewChar(c) {
     <div class="facts">
       ${fact('Race', raceLink(c.race))}
       ${fact('Class', classLink(c.cls))}
-      ${fact('Professions', c.p1 || c.p2 ? [c.p1, c.p2].filter(Boolean).map(profLink).join('') : '<span class="q">Not decided</span>')}
+      ${fact('Professions', c.p1 || c.p2 ? [c.p1, c.p2].filter(Boolean).map(p => profLink(p, c)).join('') : '<span class="q">Not decided</span>')}
       ${partner ? fact('Dualbox partner', `<span class="ic">${img('ClassIcon_' + partner.cls)}<a class="char c-${esc(partner.cls)}" href="#${partner.slug}"><span class="nm">${esc(label(partner))}</span></a></span>`) : ''}
       ${gets ? fact('Mail to this character', esc(gets.join(', '))) : ''}
     </div>
@@ -822,7 +844,7 @@ function viewChar(c) {
   ${todayChar(c)}
   ${c.skills ? `<section class="stack">
     <h2>Profession notes</h2>${c.live ? '<p class="sub">Hand-entered. Live skill levels are in the Armory section above.</p>' : ''}
-    <div class="skills">${c.skills.map(k => `<div class="skill"><div><b>${PROFS[k.n] ? profLink(k.n) : esc(k.n)}</b><span class="num">${k.at} / ${k.cap}</span><div class="bar"><span style="width:${Math.min(100, Math.round(100 * k.at / k.cap))}%"></span></div></div><p>${esc(k.next)}</p></div>`).join('')}</div>
+    <div class="skills">${c.skills.map(k => `<div class="skill"><div><b>${PROFS[k.n] ? profLink(k.n, c, k.at) : esc(k.n)}</b><span class="num">${k.at} / ${k.cap}</span><div class="bar"><span style="width:${Math.min(100, Math.round(100 * k.at / k.cap))}%"></span></div></div><p>${esc(k.next)}</p></div>`).join('')}</div>
   </section>` : ''}
   ${c.plan ? `<section class="stack">
     <h2>Plan</h2>
