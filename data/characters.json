@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-26T12:45:14.067Z",
+  "updated_at": "2026-11-26T23:53:47.815Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 39,
+      "level": 40,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,13 +333,17 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795683485000,
+      "last_login": 1795728735000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
           {
             "name": "Beast Mastery",
             "points": 31
+          },
+          {
+            "name": "Marksmanship",
+            "points": 2
           }
         ]
       },
@@ -431,9 +435,9 @@
         },
         {
           "slot": "Wrist",
-          "id": 271732,
-          "name": "Dirt-Heavy Bracers",
-          "quality": "UNCOMMON"
+          "id": 274599,
+          "name": "Oathbound Bracers",
+          "quality": "RARE"
         },
         {
           "slot": "Hands",
@@ -511,7 +515,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795683497000,
+      "last_login": 1795725799000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
