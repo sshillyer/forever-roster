@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-26T01:49:01.523Z",
+  "updated_at": "2026-11-26T12:45:14.067Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -15,7 +15,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795556128000,
+      "last_login": 1795686763000,
       "spec": {
         "active": "Affliction",
         "trees": [
@@ -169,7 +169,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795555686000,
+      "last_login": 1795683574000,
       "spec": {
         "active": "Shadow Magic",
         "trees": [
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 38,
+      "level": 39,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,13 +333,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795651012000,
+      "last_login": 1795683485000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
           {
             "name": "Beast Mastery",
-            "points": 30
+            "points": 31
           }
         ]
       },
@@ -354,7 +354,7 @@
         {
           "name": "Skinning",
           "kind": "primary",
-          "skill": 252,
+          "skill": 259,
           "max": 300,
           "tier": "Skinning"
         },
@@ -362,7 +362,7 @@
           "name": "Cooking",
           "kind": "secondary",
           "skill": 141,
-          "max": 150,
+          "max": 225,
           "tier": "Cooking"
         },
         {
@@ -437,9 +437,9 @@
         },
         {
           "slot": "Hands",
-          "id": 10413,
-          "name": "Gloves of the Fang",
-          "quality": "RARE"
+          "id": 4121,
+          "name": "Gemmed Gloves",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 1",
@@ -502,7 +502,7 @@
       "name": "Vaelor Highwind",
       "slug": "vaelor-highwind",
       "ok": true,
-      "level": 37,
+      "level": 38,
       "race": "Windshaper Skyborne",
       "class": "Druid",
       "faction": "Horde",
@@ -511,13 +511,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795631607000,
+      "last_login": 1795683497000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
           {
             "name": "Feral Combat",
-            "points": 29
+            "points": 30
           }
         ]
       },
@@ -525,7 +525,7 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 137,
+          "skill": 138,
           "max": 225,
           "tier": "Mining"
         },
@@ -560,9 +560,9 @@
         },
         {
           "slot": "Neck",
-          "id": 273088,
-          "name": "Snake Eye Kaleidoscope",
-          "quality": "RARE"
+          "id": 15690,
+          "name": "Kodobone Necklace",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Shoulders",
@@ -584,8 +584,8 @@
         },
         {
           "slot": "Waist",
-          "id": 16659,
-          "name": "Deftkin Belt",
+          "id": 15587,
+          "name": "Ringtail Girdle",
           "quality": "UNCOMMON"
         },
         {
@@ -898,7 +898,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795599949000,
+      "last_login": 1795686418000,
       "spec": {
         "active": "Retribution",
         "trees": [
@@ -1150,7 +1150,7 @@
       "guild": null,
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795650943000,
+      "last_login": 1795689496000,
       "spec": {
         "active": "Protection",
         "trees": [
@@ -1164,15 +1164,15 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 50,
+          "skill": 59,
           "max": 75,
           "tier": "Mining"
         },
         {
           "name": "Engineering",
           "kind": "primary",
-          "skill": 10,
-          "max": 75,
+          "skill": 150,
+          "max": 150,
           "tier": "Engineering"
         },
         {
@@ -1191,6 +1191,12 @@
         }
       ],
       "equipment": [
+        {
+          "slot": "Head",
+          "id": 4368,
+          "name": "Flying Tiger Goggles",
+          "quality": "UNCOMMON"
+        },
         {
           "slot": "Shirt",
           "id": 6125,
@@ -1267,7 +1273,7 @@
       "guild": null,
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795650946000,
+      "last_login": 1795689502000,
       "spec": {
         "active": "Enhancement",
         "trees": [
@@ -1302,9 +1308,9 @@
         },
         {
           "slot": "Chest",
-          "id": 1425,
-          "name": "Worn Leather Vest",
-          "quality": "POOR"
+          "id": 3288,
+          "name": "Tribal Vest",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Waist",
@@ -1326,9 +1332,9 @@
         },
         {
           "slot": "Wrist",
-          "id": 4973,
-          "name": "Plains Hunter Wristguards",
-          "quality": "COMMON"
+          "id": 281270,
+          "name": "Thra's Friendship Bracelet",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
@@ -1344,8 +1350,8 @@
         },
         {
           "slot": "Main Hand",
-          "id": 4964,
-          "name": "Goblin Smasher",
+          "id": 6214,
+          "name": "Heavy Copper Maul",
           "quality": "UNCOMMON"
         }
       ],
