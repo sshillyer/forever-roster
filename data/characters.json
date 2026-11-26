@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-25T17:20:51.317Z",
+  "updated_at": "2026-11-26T01:49:01.523Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 37,
+      "level": 38,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,13 +333,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795600523000,
+      "last_login": 1795651012000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
           {
             "name": "Beast Mastery",
-            "points": 29
+            "points": 30
           }
         ]
       },
@@ -354,7 +354,7 @@
         {
           "name": "Skinning",
           "kind": "primary",
-          "skill": 251,
+          "skill": 252,
           "max": 300,
           "tier": "Skinning"
         },
@@ -511,7 +511,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795600525000,
+      "last_login": 1795631607000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
@@ -525,14 +525,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 134,
+          "skill": 137,
           "max": 225,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 137,
+          "skill": 142,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -1140,14 +1140,216 @@
     {
       "name": "Kruul Ironhide",
       "slug": "kruul-ironhide",
-      "ok": false,
-      "status": 404
+      "ok": true,
+      "level": 11,
+      "race": "Tauren",
+      "class": "Warrior",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": null,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795650943000,
+      "spec": {
+        "active": "Protection",
+        "trees": [
+          {
+            "name": "Protection",
+            "points": 7
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Mining",
+          "kind": "primary",
+          "skill": 50,
+          "max": 75,
+          "tier": "Mining"
+        },
+        {
+          "name": "Engineering",
+          "kind": "primary",
+          "skill": 10,
+          "max": 75,
+          "tier": "Engineering"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 5,
+          "max": 75,
+          "tier": "Cooking"
+        },
+        {
+          "name": "First Aid",
+          "kind": "secondary",
+          "skill": 22,
+          "max": 75,
+          "tier": "First Aid"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 6125,
+          "name": "Brawler's Harness",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Chest",
+          "id": 10421,
+          "name": "Rough Copper Vest",
+          "quality": "UNCOMMON"
+        },
+        {
+          "slot": "Waist",
+          "id": 6548,
+          "name": "Soldier's Girdle of the Tiger",
+          "quality": "UNCOMMON"
+        },
+        {
+          "slot": "Legs",
+          "id": 3473,
+          "name": "Runed Copper Pants",
+          "quality": "UNCOMMON"
+        },
+        {
+          "slot": "Feet",
+          "id": 4972,
+          "name": "Cliff Runner Boots",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Wrist",
+          "id": 4969,
+          "name": "Fortified Bindings",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Hands",
+          "id": 3472,
+          "name": "Runed Copper Gauntlets",
+          "quality": "UNCOMMON"
+        },
+        {
+          "slot": "Back",
+          "id": 15299,
+          "name": "Grizzly Cape",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Main Hand",
+          "id": 2073,
+          "name": "Dwarven Hatchet of Shadow Protection",
+          "quality": "UNCOMMON"
+        },
+        {
+          "slot": "Off Hand",
+          "id": 3651,
+          "name": "Veteran Shield",
+          "quality": "UNCOMMON"
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/146/90859922-avatar.jpg"
     },
     {
       "name": "Kynd Stormhide",
       "slug": "kynd-stormhide",
-      "ok": false,
-      "status": 404
+      "ok": true,
+      "level": 11,
+      "race": "Tauren",
+      "class": "Shaman",
+      "faction": "Horde",
+      "gender": "Male",
+      "ruleset": "Normal",
+      "guild": null,
+      "ilvl": null,
+      "ilvl_avg": null,
+      "last_login": 1795650946000,
+      "spec": {
+        "active": "Enhancement",
+        "trees": [
+          {
+            "name": "Enhancement",
+            "points": 7
+          }
+        ]
+      },
+      "professions": [
+        {
+          "name": "Skinning",
+          "kind": "primary",
+          "skill": 75,
+          "max": 75,
+          "tier": "Skinning"
+        },
+        {
+          "name": "Cooking",
+          "kind": "secondary",
+          "skill": 1,
+          "max": 75,
+          "tier": "Cooking"
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Shirt",
+          "id": 154,
+          "name": "Primitive Mantle",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Chest",
+          "id": 1425,
+          "name": "Worn Leather Vest",
+          "quality": "POOR"
+        },
+        {
+          "slot": "Waist",
+          "id": 281266,
+          "name": "Furred Belt",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Legs",
+          "id": 4970,
+          "name": "Rough-hewn Kodo Leggings",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Feet",
+          "id": 4906,
+          "name": "Rainwalker Boots",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Wrist",
+          "id": 4973,
+          "name": "Plains Hunter Wristguards",
+          "quality": "COMMON"
+        },
+        {
+          "slot": "Hands",
+          "id": 1422,
+          "name": "Worn Leather Gloves",
+          "quality": "POOR"
+        },
+        {
+          "slot": "Back",
+          "id": 1421,
+          "name": "Worn Hide Cloak",
+          "quality": "POOR"
+        },
+        {
+          "slot": "Main Hand",
+          "id": 4964,
+          "name": "Goblin Smasher",
+          "quality": "UNCOMMON"
+        }
+      ],
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/251/90875387-avatar.jpg"
     }
   ]
 }
