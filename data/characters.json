@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-26T23:53:47.815Z",
+  "updated_at": "2026-11-27T08:44:14.302Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -1154,7 +1154,7 @@
       "guild": null,
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795689496000,
+      "last_login": 1795763420000,
       "spec": {
         "active": "Protection",
         "trees": [
@@ -1233,9 +1233,9 @@
         },
         {
           "slot": "Wrist",
-          "id": 4969,
-          "name": "Fortified Bindings",
-          "quality": "COMMON"
+          "id": 281273,
+          "name": "Migi's Friendship Bracelet",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
