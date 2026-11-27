@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-27T08:44:14.302Z",
+  "updated_at": "2026-11-27T19:02:32.987Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -15,7 +15,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795686763000,
+      "last_login": 1795772897000,
       "spec": {
         "active": "Affliction",
         "trees": [
@@ -169,7 +169,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795683574000,
+      "last_login": 1795772980000,
       "spec": {
         "active": "Shadow Magic",
         "trees": [
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 40,
+      "level": 41,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,7 +333,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795728735000,
+      "last_login": 1795771844000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
@@ -343,7 +343,7 @@
           },
           {
             "name": "Marksmanship",
-            "points": 2
+            "points": 3
           }
         ]
       },
@@ -506,7 +506,7 @@
       "name": "Vaelor Highwind",
       "slug": "vaelor-highwind",
       "ok": true,
-      "level": 38,
+      "level": 40,
       "race": "Windshaper Skyborne",
       "class": "Druid",
       "faction": "Horde",
@@ -515,13 +515,17 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795725799000,
+      "last_login": 1795771849000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
           {
+            "name": "Balance",
+            "points": 1
+          },
+          {
             "name": "Feral Combat",
-            "points": 30
+            "points": 32
           }
         ]
       },
@@ -529,14 +533,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 138,
+          "skill": 140,
           "max": 225,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 142,
+          "skill": 148,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -558,9 +562,9 @@
       "equipment": [
         {
           "slot": "Head",
-          "id": 3732,
-          "name": "Hooded Cowl",
-          "quality": "COMMON"
+          "id": 279930,
+          "name": "Saltseer's Helm",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Neck",
@@ -570,9 +574,9 @@
         },
         {
           "slot": "Shoulders",
-          "id": 270023,
-          "name": "Tanned Shoulderpads",
-          "quality": "UNCOMMON"
+          "id": 4197,
+          "name": "Berylline Pads",
+          "quality": "RARE"
         },
         {
           "slot": "Shirt",
@@ -594,8 +598,8 @@
         },
         {
           "slot": "Legs",
-          "id": 9624,
-          "name": "Triprunner Dungarees",
+          "id": 274602,
+          "name": "Brinebelly Leggings",
           "quality": "RARE"
         },
         {
@@ -606,15 +610,15 @@
         },
         {
           "slot": "Wrist",
-          "id": 270032,
-          "name": "Cultist's Armguards",
+          "id": 274599,
+          "name": "Oathbound Bracers",
           "quality": "RARE"
         },
         {
           "slot": "Hands",
-          "id": 274159,
-          "name": "Thorncursed Grips",
-          "quality": "RARE"
+          "id": 4107,
+          "name": "Tiger Hunter Gloves",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Ring 1",
@@ -902,13 +906,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795686418000,
+      "last_login": 1795772112000,
       "spec": {
         "active": "Retribution",
         "trees": [
           {
             "name": "Retribution",
-            "points": 6
+            "points": 7
           }
         ]
       },
@@ -1013,13 +1017,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795556253000,
+      "last_login": 1795772648000,
       "spec": {
         "active": "Arcane",
         "trees": [
           {
             "name": "Arcane",
-            "points": 5
+            "points": 7
           }
         ]
       },
@@ -1062,8 +1066,8 @@
         },
         {
           "slot": "Chest",
-          "id": 6241,
-          "name": "White Linen Robe",
+          "id": 6528,
+          "name": "Spellbinder Robe",
           "quality": "UNCOMMON"
         },
         {
@@ -1107,6 +1111,12 @@
           "id": 3277,
           "name": "Executor Staff",
           "quality": "COMMON"
+        },
+        {
+          "slot": "Ranged",
+          "id": 5212,
+          "name": "Blazing Wand",
+          "quality": "UNCOMMON"
         }
       ],
       "avatar": "https://render.worldofwarcraft.com/forever-us/character/113/1614449-avatar.jpg"
