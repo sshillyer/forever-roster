@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-27T19:02:32.987Z",
+  "updated_at": "2026-11-28T03:21:25.000Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 41,
+      "level": 42,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,7 +333,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795771844000,
+      "last_login": 1795833548000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
@@ -343,7 +343,7 @@
           },
           {
             "name": "Marksmanship",
-            "points": 3
+            "points": 4
           }
         ]
       },
@@ -358,14 +358,14 @@
         {
           "name": "Skinning",
           "kind": "primary",
-          "skill": 259,
+          "skill": 270,
           "max": 300,
           "tier": "Skinning"
         },
         {
           "name": "Cooking",
           "kind": "secondary",
-          "skill": 141,
+          "skill": 158,
           "max": 225,
           "tier": "Cooking"
         },
@@ -387,9 +387,9 @@
       "equipment": [
         {
           "slot": "Head",
-          "id": 3732,
-          "name": "Hooded Cowl",
-          "quality": "COMMON"
+          "id": 4078,
+          "name": "Chief Brigadier Coif",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Neck",
@@ -506,7 +506,7 @@
       "name": "Vaelor Highwind",
       "slug": "vaelor-highwind",
       "ok": true,
-      "level": 40,
+      "level": 42,
       "race": "Windshaper Skyborne",
       "class": "Druid",
       "faction": "Horde",
@@ -515,13 +515,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795771849000,
+      "last_login": 1795833550000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
           {
             "name": "Balance",
-            "points": 1
+            "points": 3
           },
           {
             "name": "Feral Combat",
@@ -533,14 +533,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 140,
+          "skill": 160,
           "max": 225,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 148,
+          "skill": 153,
           "max": 225,
           "tier": "Herbalism"
         },
