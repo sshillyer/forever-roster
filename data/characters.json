@@ -1,6 +1,6 @@
 {
   "region": "us",
-  "updated_at": "2026-11-28T03:21:25.000Z",
+  "updated_at": "2026-11-28T15:38:57.221Z",
   "characters": [
     {
       "name": "Rotten Hell",
@@ -15,7 +15,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795772897000,
+      "last_login": 1795857960000,
       "spec": {
         "active": "Affliction",
         "trees": [
@@ -169,7 +169,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795772980000,
+      "last_login": 1795857962000,
       "spec": {
         "active": "Shadow Magic",
         "trees": [
@@ -324,7 +324,7 @@
       "name": "Kaelor Highwind",
       "slug": "kaelor-highwind",
       "ok": true,
-      "level": 42,
+      "level": 43,
       "race": "Windshaper Skyborne",
       "class": "Hunter",
       "faction": "Horde",
@@ -333,7 +333,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795833548000,
+      "last_login": 1795857603000,
       "spec": {
         "active": "Beast Mastery",
         "trees": [
@@ -343,7 +343,7 @@
           },
           {
             "name": "Marksmanship",
-            "points": 4
+            "points": 5
           }
         ]
       },
@@ -358,7 +358,7 @@
         {
           "name": "Skinning",
           "kind": "primary",
-          "skill": 270,
+          "skill": 273,
           "max": 300,
           "tier": "Skinning"
         },
@@ -453,9 +453,9 @@
         },
         {
           "slot": "Ring 2",
-          "id": 6748,
-          "name": "Monkey Ring",
-          "quality": "UNCOMMON"
+          "id": 275044,
+          "name": "Bloodsport Band",
+          "quality": "RARE"
         },
         {
           "slot": "Trinket 1",
@@ -506,7 +506,7 @@
       "name": "Vaelor Highwind",
       "slug": "vaelor-highwind",
       "ok": true,
-      "level": 42,
+      "level": 43,
       "race": "Windshaper Skyborne",
       "class": "Druid",
       "faction": "Horde",
@@ -515,13 +515,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795833550000,
+      "last_login": 1795857607000,
       "spec": {
         "active": "Feral Combat",
         "trees": [
           {
             "name": "Balance",
-            "points": 3
+            "points": 4
           },
           {
             "name": "Feral Combat",
@@ -533,14 +533,14 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 160,
+          "skill": 163,
           "max": 225,
           "tier": "Mining"
         },
         {
           "name": "Herbalism",
           "kind": "primary",
-          "skill": 153,
+          "skill": 160,
           "max": 225,
           "tier": "Herbalism"
         },
@@ -562,8 +562,8 @@
       "equipment": [
         {
           "slot": "Head",
-          "id": 279930,
-          "name": "Saltseer's Helm",
+          "id": 276105,
+          "name": "Scoutmaster's Eyepatch",
           "quality": "UNCOMMON"
         },
         {
@@ -628,9 +628,9 @@
         },
         {
           "slot": "Ring 2",
-          "id": 6748,
-          "name": "Monkey Ring",
-          "quality": "UNCOMMON"
+          "id": 275044,
+          "name": "Bloodsport Band",
+          "quality": "RARE"
         },
         {
           "slot": "Trinket 1",
@@ -897,7 +897,7 @@
       "name": "Dread Reckoning",
       "slug": "dread-reckoning",
       "ok": true,
-      "level": 13,
+      "level": 14,
       "race": "Undead",
       "class": "Paladin",
       "faction": "Horde",
@@ -906,13 +906,13 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795772112000,
+      "last_login": 1795860075000,
       "spec": {
         "active": "Retribution",
         "trees": [
           {
             "name": "Retribution",
-            "points": 7
+            "points": 8
           }
         ]
       },
@@ -979,9 +979,9 @@
         },
         {
           "slot": "Wrist",
-          "id": 2853,
-          "name": "Copper Bracers",
-          "quality": "COMMON"
+          "id": 2854,
+          "name": "Runed Copper Bracers",
+          "quality": "UNCOMMON"
         },
         {
           "slot": "Hands",
@@ -991,14 +991,14 @@
         },
         {
           "slot": "Back",
-          "id": 6555,
-          "name": "Bard's Cloak",
-          "quality": "COMMON"
+          "id": 1733,
+          "name": "Worn Cloak",
+          "quality": "POOR"
         },
         {
           "slot": "Main Hand",
-          "id": 4567,
-          "name": "Merc Sword of Power",
+          "id": 3487,
+          "name": "Heavy Copper Broadsword",
           "quality": "UNCOMMON"
         }
       ],
@@ -1017,7 +1017,7 @@
       "guild": "Eternal Demise",
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795772648000,
+      "last_login": 1795860048000,
       "spec": {
         "active": "Arcane",
         "trees": [
@@ -1155,7 +1155,7 @@
       "name": "Kruul Ironhide",
       "slug": "kruul-ironhide",
       "ok": true,
-      "level": 11,
+      "level": 12,
       "race": "Tauren",
       "class": "Warrior",
       "faction": "Horde",
@@ -1164,13 +1164,13 @@
       "guild": null,
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795763420000,
+      "last_login": 1795862006000,
       "spec": {
         "active": "Protection",
         "trees": [
           {
             "name": "Protection",
-            "points": 7
+            "points": 8
           }
         ]
       },
@@ -1178,7 +1178,7 @@
         {
           "name": "Mining",
           "kind": "primary",
-          "skill": 59,
+          "skill": 60,
           "max": 75,
           "tier": "Mining"
         },
@@ -1261,8 +1261,8 @@
         },
         {
           "slot": "Main Hand",
-          "id": 2073,
-          "name": "Dwarven Hatchet of Shadow Protection",
+          "id": 2847,
+          "name": "Copper Shortsword",
           "quality": "UNCOMMON"
         },
         {
@@ -1278,7 +1278,7 @@
       "name": "Kynd Stormhide",
       "slug": "kynd-stormhide",
       "ok": true,
-      "level": 11,
+      "level": 12,
       "race": "Tauren",
       "class": "Shaman",
       "faction": "Horde",
@@ -1287,13 +1287,13 @@
       "guild": null,
       "ilvl": null,
       "ilvl_avg": null,
-      "last_login": 1795689502000,
+      "last_login": 1795862009000,
       "spec": {
         "active": "Enhancement",
         "trees": [
           {
             "name": "Enhancement",
-            "points": 7
+            "points": 8
           }
         ]
       },
